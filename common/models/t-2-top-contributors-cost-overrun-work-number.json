@@ -1,0 +1,14 @@
+{
+  "name": "t2TopContributorsCostOverrunWorkNumber",
+  "plural": "t2TopContributorsCostOverrunWorkNumber",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

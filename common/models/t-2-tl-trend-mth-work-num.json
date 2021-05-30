@@ -1,0 +1,14 @@
+{
+  "name": "t2TLTrendMthWorkNum",
+  "plural": "t2TLTrendMthWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

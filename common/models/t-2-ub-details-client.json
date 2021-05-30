@@ -1,0 +1,14 @@
+{
+  "name": "t2UBDetailsClient",
+  "plural": "t2UBDetailsClient",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

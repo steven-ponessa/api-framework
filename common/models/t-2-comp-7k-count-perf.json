@@ -1,0 +1,14 @@
+{
+  "name": "t2Comp7KCountPerf",
+  "plural": "t2Comp7KCountPerf",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

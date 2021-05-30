@@ -1,0 +1,30 @@
+{
+    "month":"July",
+    "data":[
+      {
+        "label": "Revenue",
+        "cq-port": 600,
+        "rolling-3-months":3500,
+        "tcv": 650
+      },
+      {
+        "label": "Cost",
+        "cq-port": 150,
+        "rolling-3-months":900,
+        "tcv": 170
+        
+      },
+      {
+        "label": "GP $(M)",
+        "cq-port": 100,
+        "rolling-3-months":805,
+        "tcv": 120
+        
+      },
+      {
+        "label": "GP %",
+        "cq-port": 34,
+        "rolling-3-months":24,
+        "tcv": 27
+      }]
+  }

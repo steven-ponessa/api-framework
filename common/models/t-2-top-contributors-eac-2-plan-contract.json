@@ -1,0 +1,14 @@
+{
+  "name": "t2TopContributorsEac2PlanContract",
+  "plural": "t2TopContributorsEac2PlanContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

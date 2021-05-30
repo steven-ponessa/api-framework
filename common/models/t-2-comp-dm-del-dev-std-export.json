@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDMDelDevStdExport",
+  "plural": "t2CompDMDelDevStdExport",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

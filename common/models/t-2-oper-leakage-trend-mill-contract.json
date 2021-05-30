@@ -1,0 +1,14 @@
+{
+  "name": "t2OperLeakageTrendMillContract",
+  "plural": "t2OperLeakageTrendMillContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

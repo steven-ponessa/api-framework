@@ -1,0 +1,14 @@
+{
+  "name": "t2Comp7KTrendPerf",
+  "plural": "t2Comp7KTrendPerf",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

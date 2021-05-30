@@ -1,0 +1,14 @@
+{
+  "name": "t2gppDetailsQtrFinWorkNum",
+  "plural": "t2gppDetailsQtrFinWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

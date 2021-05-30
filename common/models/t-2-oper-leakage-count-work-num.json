@@ -1,0 +1,14 @@
+{
+  "name": "t2OperLeakageCountWorkNum",
+  "plural": "t2OperLeakageCountWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

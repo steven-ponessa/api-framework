@@ -1,0 +1,14 @@
+{
+  "name": "t2ExpContractList",
+  "plural": "t2ExpContractList",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

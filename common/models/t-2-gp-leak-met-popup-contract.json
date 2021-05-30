@@ -1,0 +1,14 @@
+{
+  "name": "t2GPLeakMetPopupContract",
+  "plural": "t2GPLeakMetPopupContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

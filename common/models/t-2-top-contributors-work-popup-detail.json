@@ -1,0 +1,14 @@
+{
+  "name": "t2TopContributorsWorkPopupDetail",
+  "plural": "t2TopContributorsWorkPopupDetail",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

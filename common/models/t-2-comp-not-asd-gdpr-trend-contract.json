@@ -1,0 +1,14 @@
+{
+  "name": "t2CompNotAsdGDPRTrendContract",
+  "plural": "t2CompNotAsdGDPRTrendContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

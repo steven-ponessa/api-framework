@@ -1,0 +1,14 @@
+{
+  "name": "t1UBAR",
+  "plural": "t1UBAR",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

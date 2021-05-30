@@ -1,0 +1,14 @@
+{
+  "name": "t2CompNonGDPRExportContract",
+  "plural": "t2CompNonGDPRExportContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

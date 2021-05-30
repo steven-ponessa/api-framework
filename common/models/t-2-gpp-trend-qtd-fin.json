@@ -1,0 +1,14 @@
+{
+  "name": "t2gppTrendQTDFin",
+  "plural": "t2gppTrendQTDFin",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

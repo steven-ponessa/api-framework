@@ -1,0 +1,14 @@
+{
+  "name": "t2PriPlanContract",
+  "plural": "t2PriPlanContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

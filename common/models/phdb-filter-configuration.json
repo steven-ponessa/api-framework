@@ -1,0 +1,59 @@
+[
+    {
+        "id" : 4,
+        "name": "global",
+        "columnName": "n/a",
+        "type": "Geo",
+        "values": []
+        
+    }, 
+    {
+        "id" : 8,
+        "name": "geography",
+        "columnName": "GEO_DESC",
+        "type": "Geo",
+        "values": []
+    }, 
+    {
+        "id" : 16,
+        "name": "imt",
+        "columnName": "MKT_DESC",
+        "type": "Geo",
+        "values": []
+    }, 
+    {
+        "id" : 32,
+        "name": "region",
+        "columnName": "RGN_DESC",
+        "type": "Geo",
+        "values": []
+    }, 
+    {
+        "id" : 64,
+        "name": "country",
+        "columnName": "CTRY_DESC",
+        "type": "Geo",
+        "values": []
+    }, 
+    {
+        "id" : 128,
+        "name": "sector",
+        "columnName": "SECTOR_DESC",
+        "type": "Business",
+        "values": []
+    }, 
+    {
+        "id" : 256,
+        "name": "growth_platform",
+        "columnName": "GROWTH_PLATFORM_DESC",
+        "type": "Business",
+        "values": []
+    }, 
+    {
+        "id" : 512,
+        "name": "service",
+        "columnName": "SVC_LINE_DESC",
+        "type": "Business",
+        "values": []
+    }
+]

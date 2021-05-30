@@ -1,0 +1,284 @@
+{"t2BusinessLeakageExpansionDetailsWorkNumber":
+{
+	"TIMEFRAME":"Q3 2017",
+	"WORK_NUM_LABEL":"Work#",
+	"PRJCT_NM_LABEL":"Project Name",
+	"CLNT_NM_LABEL":"Client Name",
+	"ACTL_LEAKAG_LABEL":"Actual $ Leakage",
+	"ITD_GP_PCT_LABEL":"ItD GP %",
+	"ACTL_LEAKAG_LABEL":"Actual $ Leakage",
+	"PC_GP_PCT_LABEL":"PC GP %",
+	"DATA":[
+	{
+		"WORK_NUM":"CFTSGXA",
+		"PRJCT_NM":"At&T Adm",
+		"CLNT_NM:":"A T & T Corp",
+		"ACTL_LEAKAG":"7052994409.84",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"7052994409.84",
+		"PC_GP_PCT":"6.02"
+	},
+	{
+		"WORK_NUM":"CFTNBYL",
+		"PRJCT_NM":"Sprint - Ad/M",
+		"CLNT_NM:":"Sprint/United Management Company",
+		"ACTL_LEAKAG":"1020786897.18",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"1020786897.18",
+		"PC_GP_PCT":"0.08"
+	},
+	{
+		"WORK_NUM":	"3527F",
+		"PRJCT_NM":"New Century Ser Adm",
+		"CLNT_NM:":"Xcel Energy Services Inc",
+		"ACTL_LEAKAG":"932626801.49",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"932626801.49",
+		"PC_GP_PCT":"132.25"
+	},
+	{
+		"WORK_NUM":"CFTT36B",
+		"PRJCT_NM":"Nasco - Ad/M",
+		"CLNT_NM:":"National Account Services Co",
+		"ACTL_LEAKAG":"677145123.73",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"677145123.73",
+		"PC_GP_PCT":"21.22"
+	},
+	{
+		"WORK_NUM":"0515F",
+		"PRJCT_NM":"Bcbs Ad/M",
+		"CLNT_NM:":"Horizon Healthcare Services Inc",
+		"ACTL_LEAKAG":"618524170.15",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"618524170.15",
+		"PC_GP_PCT":"10.41"
+	},
+	{
+		"WORK_NUM":"4002F",
+		"PRJCT_NM":"St Cal Cws/Cms - Data Center",
+		"CLNT_NM:":"State Of California",
+		"ACTL_LEAKAG":"473792634.83",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"473792634.83",
+		"PC_GP_PCT":"9.43"
+	},
+	{
+		"WORK_NUM":"GB00138987",
+		"PRJCT_NM":"Fixed Price Deadband Calculation Additional Invoice For Mays Charges",
+		"CLNT_NM:":"Bp International Ltd",
+		"ACTL_LEAKAG":"353187606.07",
+		"ITD_GP_PCT":"0.020000000",
+		"ACTL_LEAKAG":"353187606.07",
+		"PC_GP_PCT":"15.07"
+	},
+	{
+		"WORK_NUM":"CFTF67E",
+		"PRJCT_NM":"Ace Adm",
+		"CLNT_NM:":"Ace Insurance",
+		"ACTL_LEAKAG":"345662712.40",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"345662712.40",
+		"PC_GP_PCT":"13.30"
+	},
+	{
+		"WORK_NUM":"CFT1LVK",
+		"PRJCT_NM":"Ams/So Ais - Outsourcing (Gie)",
+		"CLNT_NM:":"Qwest Corp",
+		"ACTL_LEAKAG":"333983436.84",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"333983436.84",
+		"PC_GP_PCT":"50.08"
+	},
+	{
+		"WORK_NUM":"CFTMYYN",
+		"PRJCT_NM":"Nisour Corp - Ad/M",
+		"CLNT_NM:":"Nisource Corporate Services Co",
+		"ACTL_LEAKAG":"328781271.07",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"328781271.07",
+		"PC_GP_PCT":"16.05"
+	},
+	{
+		"WORK_NUM":"CFTB4CF",
+		"PRJCT_NM":"Ams/So S T Portfolio Otsrcng",
+		"CLNT_NM:":"Anthem Inc",
+		"ACTL_LEAKAG":"310531499.62",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"310531499.62",
+		"PC_GP_PCT":"29.02"
+	},
+	{
+		"WORK_NUM":"GB00148441",
+		"PRJCT_NM":"Input Services Nationwide",
+		"CLNT_NM:":"Building Society",
+		"ACTL_LEAKAG":"284226888.43",
+		"ITD_GP_PCT":"0.230000000",
+		"ACTL_LEAKAG":"284226888.43",
+		"PC_GP_PCT":"35.19"
+	},
+	{
+		"WORK_NUM":"CFTFYXJ",
+		"PRJCT_NM":"Nextel Communications - Ad/M",
+		"CLNT_NM:":"Nextel Systems Corp",
+		"ACTL_LEAKAG":"248945703.18",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"248945703.18",
+		"PC_GP_PCT":"31.38"
+	},
+	{
+		"WORK_NUM":"4009F",
+		"PRJCT_NM":"St Of Wa Aces - Ad/M",
+		"CLNT_NM:":"State Of Washington",
+		"ACTL_LEAKAG":"240018810.02",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"240018810.02",
+		"PC_GP_PCT":"17.18"
+	},
+	{
+		"WORK_NUM":"CFTB4CF",
+		"PRJCT_NM":"Ams/So Bao Full Outsourcing",
+		"CLNT_NM:":"Anthem Inc",
+		"ACTL_LEAKAG":"217863508.99",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"217863508.99",
+		"PC_GP_PCT":"47.41"
+	},
+	{
+		"WORK_NUM":"CFTNBYL",
+		"PRJCT_NM":"Ams/So Ais Smt Comr (Websphere)",
+		"CLNT_NM:":"Sprint/United Management Company",
+		"ACTL_LEAKAG":"214910479.81",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"214910479.81",
+		"PC_GP_PCT":"40.43"
+	},
+	{
+		"WORK_NUM":"CFTC0QN",
+		"PRJCT_NM":"Fireman'S Fund - Ad/M",
+		"CLNT_NM:":"Firemans Fund Insurance Co",
+		"ACTL_LEAKAG":"177881592.51",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"177881592.51",
+		"PC_GP_PCT":"12.07"
+	},
+	{
+		"WORK_NUM":"GB00151927",
+		"PRJCT_NM":"Operate",
+		"CLNT_NM:":"Department Of Health",
+		"ACTL_LEAKAG":"168367757.62",
+		"ITD_GP_PCT":"0.200000000",
+		"ACTL_LEAKAG":"168367757.62",
+		"PC_GP_PCT":"27.30"
+	},
+	{
+		"WORK_NUM":"CFTNY6N",
+		"PRJCT_NM":"Ibm Application Management Services - Ams/So App Out-Tskg-Cstm",
+		"CLNT_NM:":"Amerisourcebergen Services Corp",
+		"ACTL_LEAKAG":"166590392.13",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"166590392.13",
+		"PC_GP_PCT":"26.08"
+	},
+	{
+		"WORK_NUM":"1004F",
+		"PRJCT_NM":"Ad/M",
+		"CLNT_NM:":"Ak Steel Corp",
+		"ACTL_LEAKAG":"165229125.04",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"165229125.04",
+		"PC_GP_PCT":"36.05"
+	},
+	{
+		"WORK_NUM":"GB00152043",
+		"PRJCT_NM":"June Project George T&M Charges",
+		"CLNT_NM:":"Monitise International Ltd",
+		"ACTL_LEAKAG":"161183562.77",
+		"ITD_GP_PCT":"0.290000000",
+		"ACTL_LEAKAG":"161183562.77",
+		"PC_GP_PCT":"49.02"
+	},
+	{
+		"WORK_NUM":"GB00137481",
+		"PRJCT_NM":"N/A",
+		"CLNT_NM:":"Hm Passport Office",
+		"ACTL_LEAKAG":"152124448.45",
+		"ITD_GP_PCT":"0.150000000",
+		"ACTL_LEAKAG":"152124448.45",
+		"PC_GP_PCT":"11.19"
+	},
+	{
+		"WORK_NUM":"CFT2WLC",
+		"PRJCT_NM":"Ams/So Portfolio Outsourcing",
+		"CLNT_NM:":"The Hertz Corp",
+		"ACTL_LEAKAG":"151868144.13",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"151868144.13",
+		"PC_GP_PCT":"42.38"
+	},
+	{
+		"WORK_NUM":"CFTYYTC",
+		"PRJCT_NM":"Outsourcing Application Hs",
+		"CLNT_NM:":"Micron Technology Inc",
+		"ACTL_LEAKAG":"149325818.83",
+		"ITD_GP_PCT":"0.270000000",
+		"ACTL_LEAKAG":"149325818.83",
+		"PC_GP_PCT":"48.18"
+	},
+	{
+		"WORK_NUM":"GB00143546",
+		"PRJCT_NM":"Adep Implementation - Application Maintenance",
+		"CLNT_NM:":"Department For Work & Pensions",
+		"ACTL_LEAKAG":"143117005.90",
+		"ITD_GP_PCT":"-0.940000000",
+		"ACTL_LEAKAG":"143117005.90",
+		"PC_GP_PCT":"33.23"
+	},
+	{
+		"WORK_NUM":"DF4YLC",
+		"PRJCT_NM":"Strategic Transformation For Clinical Information Systems",
+		"CLNT_NM:":"Provincial Health Services",
+		"ACTL_LEAKAG":"140951404.66",
+		"ITD_GP_PCT":"0.270000000",
+		"ACTL_LEAKAG":"140951404.66",
+		"PC_GP_PCT":"45.14"
+	},
+	{
+		"WORK_NUM":"CFTVAMG",
+		"PRJCT_NM":"Conect - Ad/M",
+		"CLNT_NM:":"Phi Service Co",
+		"ACTL_LEAKAG":"140757738.20",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"140757738.20",
+		"PC_GP_PCT":"3.20"
+	},
+	{
+		"WORK_NUM":"CFTFYXJ",
+		"PRJCT_NM":"Ams/So Ais Smarter Commerce",
+		"CLNT_NM:":"Nextel Systems Corp",
+		"ACTL_LEAKAG":"138742123.55",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"138742123.55",
+		"PC_GP_PCT":"34.39"
+	},
+	{
+		"WORK_NUM":"CFT187L",
+		"PRJCT_NM":"Lincoln - Ad/M",
+		"CLNT_NM:":"The Lincoln National Life Insuranc",
+		"ACTL_LEAKAG":"136663750.20",
+		"ITD_GP_PCT":"0",
+		"ACTL_LEAKAG":"136663750.20",
+		"PC_GP_PCT":"46.01"
+	},
+	{
+		"WORK_NUM":"GB00138987",
+		"PRJCT_NM":"N/A",
+		"CLNT_NM:":"Bp Corporation North America",
+		"ACTL_LEAKAG":"131918499.93",
+		"ITD_GP_PCT":"0.340000000",
+		"ACTL_LEAKAG":"131918499.93",
+		"PC_GP_PCT":"44.04"
+	}
+	]
+}
+}

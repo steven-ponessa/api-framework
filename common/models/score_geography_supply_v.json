@@ -1,0 +1,147 @@
+{
+  "name": "SCORE_GEOGRAPHY_SUPPLY_V",
+  "plural": "SCORE_GEOGRAPHY_SUPPLY_V",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "SUPPLY_GEO_ID": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "description": "Uniquely Identifies the Supply Geography Node",
+      "isArray": false,
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.SUPPLY_GEO_ID",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "SUPPLY_GEO_ID",
+        "type": "number",
+        "isId": true,
+        "required": true,
+        "description": "Uniquely Identifies the Supply Geography Node",
+        "isArray": false
+      },
+      "$promise": {},
+      "$resolved": true
+    },
+    "GEO_NM": {
+      "type": "string",
+      "required": false,
+      "description": "Geography Name",
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.GEO_NM",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "GEO_NM",
+        "type": "string",
+        "required": false,
+        "description": "Geography Name"
+      },
+      "$promise": {},
+      "$resolved": true
+    },
+    "MKT_NM": {
+      "type": "string",
+      "required": false,
+      "description": "Market Name",
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.MKT_NM",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "MKT_NM",
+        "type": "string",
+        "required": false,
+        "description": "Market Name"
+      },
+      "$promise": {},
+      "$resolved": true
+    },
+    "LVL3_NM": {
+      "type": "string",
+      "required": false,
+      "description": "Supply Geography Level 3 Name",
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.LVL3_NM",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "LVL3_NM",
+        "type": "string",
+        "required": false,
+        "description": "Supply Geography Level 3 Name"
+      },
+      "$promise": {},
+      "$resolved": true
+    },
+    "LVL4_NM": {
+      "type": "string",
+      "required": false,
+      "description": "Supply Geography Level 4 Name",
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.LVL4_NM",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "LVL4_NM",
+        "type": "string",
+        "required": false,
+        "description": "Supply Geography Level 4 Name"
+      },
+      "$promise": {},
+      "$resolved": true
+    },
+    "GEO_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Geography Code",
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.GEO_CD",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "GEO_CD",
+        "type": "string",
+        "required": false,
+        "description": "Geography Code"
+      },
+      "$promise": {},
+      "$resolved": true
+    },
+    "MKT_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Market Code",
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.MKT_CD",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "MKT_CD",
+        "type": "string",
+        "required": false,
+        "description": "Market Code"
+      },
+      "$promise": {},
+      "$resolved": true
+    },
+    "LVL3_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Supply Geography Level 3 Code",
+      "updateResource": {
+        "id": "common.SCORE_GEOGRAPHY_SUPPLY_V.LVL3_CD",
+        "modelId": "common.SCORE_GEOGRAPHY_SUPPLY_V",
+        "facetName": "common",
+        "name": "LVL3_CD",
+        "type": "string",
+        "required": false,
+        "description": "Supply Geography Level 3 Code"
+      },
+      "$promise": {},
+      "$resolved": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

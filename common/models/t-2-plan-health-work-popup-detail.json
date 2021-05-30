@@ -1,0 +1,14 @@
+{
+  "name": "t2PlanHealthWorkPopupDetail",
+  "plural": "t2PlanHealthWorkPopupDetail",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

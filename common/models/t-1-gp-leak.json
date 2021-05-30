@@ -1,0 +1,14 @@
+{
+  "name": "t1GPLeak",
+  "plural": "t1GPLeak",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

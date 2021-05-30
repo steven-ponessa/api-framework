@@ -1,0 +1,14 @@
+{
+  "name": "t2UBTrendContract",
+  "plural": "t2UBTrendContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

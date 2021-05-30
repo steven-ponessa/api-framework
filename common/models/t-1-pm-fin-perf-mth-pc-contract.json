@@ -1,0 +1,14 @@
+{
+  "name": "t1PMFinPerfMthPCContract",
+  "plural": "t1PMFinPerfMthPCContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

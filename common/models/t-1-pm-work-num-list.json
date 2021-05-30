@@ -1,0 +1,14 @@
+{
+  "name": "t1PMWorkNumList",
+  "plural": "t1PMWorkNumList",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

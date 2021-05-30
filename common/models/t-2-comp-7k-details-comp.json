@@ -1,0 +1,14 @@
+{
+  "name": "t2Comp7KDetailsComp",
+  "plural": "t2Comp7KDetailsComp",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

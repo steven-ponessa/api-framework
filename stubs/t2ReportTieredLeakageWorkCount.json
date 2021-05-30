@@ -1,0 +1,462 @@
+{
+    "month": "July",
+    "year": "2017",
+    "data": [
+      {
+        "qtrGpLeakage": [
+          {
+            "label": "AP",
+            "t1": {
+              "value": 25,
+              "status": "up-red"
+            },
+            "t2": {
+              "value": 70,
+              "status": "up-red"
+            },
+            "t3": {
+              "value": 5,
+              "status": "up-red"
+            },
+            "total": {
+              "value": 100,
+              "status": "up-red"
+            }
+          },
+          {
+            "label": "Europe",
+            "t1": {
+              "value": 35,
+              "status": "up-yellow"
+            },
+            "t2": {
+              "value": 23,
+              "status": "up-yellow"
+            },
+            "t3": {
+              "value": 20,
+              "status": "up-yellow"
+            },
+            "total": {
+              "value": 78,
+              "status": "up-yellow"
+            }
+          },
+          {
+            "label": "GCG",
+            "t1": {
+              "value": 23,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 25,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 15,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 63,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "Japan",
+            "t1": {
+              "value": 54,
+              "status": "up-red"
+            },
+            "t2": {
+              "value": 40,
+              "status": "up-red"
+            },
+            "t3": {
+              "value": 2,
+              "status": "up-red"
+            },
+            "total": {
+              "value": 96,
+              "status": "up-red"
+            }
+          },
+          {
+            "label": "LA",
+            "t1": {
+              "value": 20,
+              "status": "up-yellow"
+            },
+            "t2": {
+              "value": 12,
+              "status": "up-yellow"
+            },
+            "t3": {
+              "value": 10,
+              "status": "up-yellow"
+            },
+            "total": {
+              "value": 42,
+              "status": "up-yellow"
+            }
+          },
+          {
+            "label": "NA",
+            "t1": {
+              "value": 67,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 13,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 6,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 86,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "MEA",
+            "t1": {
+              "value": 24,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 35,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 14,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 73,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "Total",
+            "t1": {
+              "value": 100
+            },
+            "t2": {
+              "value": 200
+            },
+            "t3": {
+              "value": 300
+            },
+            "total": {
+              "value": 600
+            }
+          }
+        ]
+      },
+      {
+        "eacVTargetPlan": [
+          {
+            "label": "AP",
+            "t1": {
+              "value": 250,
+              "status": "up-red"
+            },
+            "t2": {
+              "value": 100,
+              "status": "up-red"
+            },
+            "t3": {
+              "value": 65,
+              "status": "up-red"
+            },
+            "total": {
+              "value": 415,
+              "status": "up-red"
+            }
+          },
+          {
+            "label": "Europe",
+            "t1": {
+              "value": 350,
+              "status": "up-yellow"
+            },
+            "t2": {
+              "value": 120,
+              "status": "up-yellow"
+            },
+            "t3": {
+              "value": 40,
+              "status": "up-yellow"
+            },
+            "total": {
+              "value": 515,
+              "status": "up-yellow"
+            }
+          },
+          {
+            "label": "GCG",
+            "t1": {
+              "value": 100,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 60,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 20,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 180,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "Japan",
+            "t1": {
+              "value": 40,
+              "status": "up-red"
+            },
+            "t2": {
+              "value": 70,
+              "status": "up-red"
+            },
+            "t3": {
+              "value": 10,
+              "status": "up-red"
+            },
+            "total": {
+              "value": 120,
+              "status": "up-red"
+            }
+          },
+          {
+            "label": "LA",
+            "t1": {
+              "value": 10,
+              "status": "up-yellow"
+            },
+            "t2": {
+              "value": 20,
+              "status": "up-yellow"
+            },
+            "t3": {
+              "value": 5,
+              "status": "up-yellow"
+            },
+            "total": {
+              "value": 35,
+              "status": "up-yellow"
+            }
+          },
+          {
+            "label": "NA",
+            "t1": {
+              "value": 50,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 24,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 40,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 114,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "MEA",
+            "t1": {
+              "value": 50,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 12,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 20,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 82,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "Total",
+            "t1": {
+              "value": 850
+            },
+            "t2": {
+              "value": 406
+            },
+            "t3": {
+              "value": 200
+            },
+            "total": {
+              "value": 1456
+            }
+          }
+        ]
+      },
+      {
+        "costOverrun": [
+          {
+            "label": "AP",
+            "t1": {
+              "value": 250,
+              "status": "up-red"
+            },
+            "t2": {
+              "value": 100,
+              "status": "up-red"
+            },
+            "t3": {
+              "value": 65,
+              "status": "up-red"
+            },
+            "total": {
+              "value": 415,
+              "status": "up-red"
+            }
+          },
+          {
+            "label": "Europe",
+            "t1": {
+              "value": 350,
+              "status": "up-yellow"
+            },
+            "t2": {
+              "value": 120,
+              "status": "up-yellow"
+            },
+            "t3": {
+              "value": 40,
+              "status": "up-yellow"
+            },
+            "total": {
+              "value": 515,
+              "status": "up-yellow"
+            }
+          },
+          {
+            "label": "GCG",
+            "t1": {
+              "value": 100,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 60,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 20,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 180,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "Japan",
+            "t1": {
+              "value": 40,
+              "status": "up-red"
+            },
+            "t2": {
+              "value": 70,
+              "status": "up-red"
+            },
+            "t3": {
+              "value": 10,
+              "status": "up-red"
+            },
+            "total": {
+              "value": 120,
+              "status": "up-red"
+            }
+          },
+          {
+            "label": "LA",
+            "t1": {
+              "value": 10,
+              "status": "up-yellow"
+            },
+            "t2": {
+              "value": 20,
+              "status": "up-yellow"
+            },
+            "t3": {
+              "value": 5,
+              "status": "up-yellow"
+            },
+            "total": {
+              "value": 35,
+              "status": "up-yellow"
+            }
+          },
+          {
+            "label": "NA",
+            "t1": {
+              "value": 50,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 24,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 40,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 114,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "MEA",
+            "t1": {
+              "value": 50,
+              "status": "up-green"
+            },
+            "t2": {
+              "value": 12,
+              "status": "up-green"
+            },
+            "t3": {
+              "value": 20,
+              "status": "up-green"
+            },
+            "total": {
+              "value": 82,
+              "status": "up-green"
+            }
+          },
+          {
+            "label": "Total",
+            "t1": {
+              "value": 200
+            },
+            "t2": {
+              "value": 300
+            },
+            "t3": {
+              "value": 550
+            },
+            "total": {
+              "value": 1050
+            }
+          }
+        ]
+      }
+    ]
+  }

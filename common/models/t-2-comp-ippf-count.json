@@ -1,0 +1,14 @@
+{
+  "name": "t2CompIPPFCount",
+  "plural": "t2CompIPPFCount",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

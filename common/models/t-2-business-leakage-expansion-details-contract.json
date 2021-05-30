@@ -1,0 +1,14 @@
+{
+  "name": "t2BusinessLeakageExpansionDetailsContract",
+  "plural": "t2BusinessLeakageExpansionDetailsContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

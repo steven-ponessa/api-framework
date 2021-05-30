@@ -1,0 +1,14 @@
+{
+  "name": "t1PMFinPerfMthPCWorkNum",
+  "plural": "t1PMFinPerfMthPCWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

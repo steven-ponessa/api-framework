@@ -1,0 +1,14 @@
+{
+  "name": "cpmExpanList",
+  "plural": "cpmExpanList",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

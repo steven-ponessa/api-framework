@@ -1,0 +1,14 @@
+{
+  "name": "t2TLDetailsWorkNum",
+  "plural": "t2TLDetailsWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

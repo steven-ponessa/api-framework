@@ -1,0 +1,14 @@
+{
+  "name": "t2BusinessLeakageExpansionWorkNumTotal",
+  "plural": "t2BusinessLeakageExpansionWorkNumTotal",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

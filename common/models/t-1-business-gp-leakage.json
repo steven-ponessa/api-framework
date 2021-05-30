@@ -1,0 +1,14 @@
+{
+  "name": "t1BusinessGPLeakage",
+  "plural": "t1BusinessGPLeakage",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

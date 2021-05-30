@@ -1,0 +1,14 @@
+{
+  "name": "t2ReportTieredLeakagePercentage",
+  "plural": "t2ReportTieredLeakagePercentage",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

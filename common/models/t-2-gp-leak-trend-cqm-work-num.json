@@ -1,0 +1,14 @@
+{
+  "name": "t2GPLeakTrendCQMWorkNum",
+  "plural": "t2GPLeakTrendCQMWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

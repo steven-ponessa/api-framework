@@ -1,0 +1,14 @@
+{
+  "name": "t2ExpTrend",
+  "plural": "t2ExpTrend",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

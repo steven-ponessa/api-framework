@@ -1,0 +1,14 @@
+{
+  "name": "t1PMProcCompWorkNum",
+  "plural": "t1PMProcCompWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

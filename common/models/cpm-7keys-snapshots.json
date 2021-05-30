@@ -1,0 +1,14 @@
+{
+  "name": "cpm7KeysSnapshots",
+  "plural": "cpm7KeysSnapshots",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

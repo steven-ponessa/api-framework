@@ -1,0 +1,14 @@
+{
+  "name": "t1PMTrendIncepWorkNum",
+  "plural": "t1PMTrendIncepWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

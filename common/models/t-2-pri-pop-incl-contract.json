@@ -1,0 +1,14 @@
+{
+  "name": "t2PriPopInclContract",
+  "plural": "t2PriPopInclContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

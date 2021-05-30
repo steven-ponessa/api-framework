@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDMDelUsgCount",
+  "plural": "t2CompDMDelUsgCount",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

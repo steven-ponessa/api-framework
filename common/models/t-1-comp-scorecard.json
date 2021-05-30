@@ -1,0 +1,14 @@
+{
+  "name": "t1CompScorecard",
+  "plural": "t1CompScorecard",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

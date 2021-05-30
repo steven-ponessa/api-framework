@@ -1,0 +1,43 @@
+{
+  "name": "CC_USAGE",
+  "plural": "CC_USAGE",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "APPL_ID": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "index": true,
+      "description": "Unique application ID",
+      "isArray": false
+    },
+    "TRX_TIME": {
+      "type": "date",
+      "required": true,
+      "description": "Timestamp of log"
+    },
+    "INET_ID": {
+      "type": "string",
+      "required": true,
+      "description": "Intranet Id"
+    },
+    "DEST_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Value from type of log"
+    },
+    "DEST_TYPE": {
+      "type": "string",
+      "required": true,
+      "description": "Type of log"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

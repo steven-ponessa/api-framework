@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDSTrend",
+  "plural": "t2CompDSTrend",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

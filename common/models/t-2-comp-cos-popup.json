@@ -1,0 +1,14 @@
+{
+  "name": "t2CompCOSPopup",
+  "plural": "t2CompCOSPopup",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

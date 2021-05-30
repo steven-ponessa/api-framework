@@ -1,0 +1,14 @@
+{
+  "name": "t2PMMultiSelect",
+  "plural": "t2PMMultiSelect",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

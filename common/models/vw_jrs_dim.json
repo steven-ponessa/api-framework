@@ -1,0 +1,77 @@
+{
+  "name": "VW_JRS_DIM",
+  "plural": "VW_JRS_DIM",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "JRS_CD": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "BRAND_CD": {
+      "type": "string",
+      "required": true
+    },
+    "BRAND_NM": {
+      "type": "string",
+      "required": true
+    },
+    "GROWTH_PLATFORM_CD": {
+      "type": "string",
+      "required": true
+    },
+    "GROWTH_PLATFORM_NM": {
+      "type": "string",
+      "required": true
+    },
+    "SERVICE_LINE_CD": {
+      "type": "string",
+      "required": true
+    },
+    "SERVICE_LINE_NM": {
+      "type": "string",
+      "required": true
+    },
+    "PRACTICE_CD": {
+      "type": "string",
+      "required": true
+    },
+    "PRACTICE_NM": {
+      "type": "string",
+      "required": true
+    },
+    "SERVICE_AREA_CD": {
+      "type": "string",
+      "required": true
+    },
+    "SERVICE_AREA_NM": {
+      "type": "string",
+      "required": true
+    },
+    "JOB_ROLE_CD": {
+      "type": "string",
+      "required": true
+    },
+    "JOB_ROLE_NM": {
+      "type": "string",
+      "required": true
+    },
+    "SPECIALTY_CD": {
+      "type": "string",
+      "required": true
+    },
+    "SPECIALTY_NM": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

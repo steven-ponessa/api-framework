@@ -1,0 +1,14 @@
+{
+  "name": "ubarSnapshots",
+  "plural": "ubarSnapshots",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

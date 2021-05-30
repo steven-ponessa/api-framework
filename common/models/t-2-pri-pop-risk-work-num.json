@@ -1,0 +1,14 @@
+{
+  "name": "t2PriPopRiskWorkNum",
+  "plural": "t2PriPopRiskWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

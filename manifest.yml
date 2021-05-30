@@ -1,0 +1,8 @@
+applications:
+- path: .
+  name: phd-dev-api
+  environment_json: {}
+  memory: 1024M
+  instances: 1
+  disk_quota: 1024M
+services: []

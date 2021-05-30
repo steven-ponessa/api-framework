@@ -1,0 +1,32 @@
+{
+  "name": "COC_DIM",
+  "plural": "COC_DIM",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "COC_KEY": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "description": "CoC Key",
+      "isArray": false
+    },
+    "COC_NM": {
+      "type": "string",
+      "required": true,
+      "description": "CoC Name"
+    },
+    "ACTV_FLG": {
+      "type": "string",
+      "required": true,
+      "description": "Active Flag"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

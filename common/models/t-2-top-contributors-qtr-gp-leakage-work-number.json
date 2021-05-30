@@ -1,0 +1,14 @@
+{
+  "name": "t2TopContributorsQtrGpLeakageWorkNumber",
+  "plural": "t2TopContributorsQtrGpLeakageWorkNumber",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

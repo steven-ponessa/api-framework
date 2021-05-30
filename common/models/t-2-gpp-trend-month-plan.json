@@ -1,0 +1,14 @@
+{
+  "name": "t2gppTrendMonthPlan",
+  "plural": "t2gppTrendMonthPlan",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

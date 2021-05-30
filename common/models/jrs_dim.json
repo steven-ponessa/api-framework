@@ -1,0 +1,93 @@
+{
+  "name": "JRS_DIM",
+  "plural": "JRS_DIM",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "JRS_CD": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "description": "Concatenation of Job Role and Specialty Codes",
+      "isArray": false
+    },
+    "BRAND_CD": {
+      "type": "string",
+      "required": true,
+      "description": "Brand (UT Level 10) Code"
+    },
+    "BRAND_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Brand (UT Level 10) Name"
+    },
+    "GROWTH_PLATFORM_CD": {
+      "type": "string",
+      "required": true,
+      "description": "Growth Platform (UT Level 15) Code"
+    },
+    "GROWTH_PLATFORM_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Growth Platform (UT Level 15) Name"
+    },
+    "SERVICE_LINE_CD": {
+      "type": "string",
+      "required": true,
+      "description": "Service Line (UT Level 17) Code"
+    },
+    "SERVICE_LINE_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Service Line (UT Level 17) Name"
+    },
+    "PRACTICE_CD": {
+      "type": "string",
+      "required": true,
+      "description": "Practice Code"
+    },
+    "PRACTICE_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Practice Name"
+    },
+    "SERVICE_AREA_CD": {
+      "type": "string",
+      "required": true,
+      "description": "Service Area Code"
+    },
+    "SERVICE_AREA_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Service Area Name"
+    },
+    "JOB_ROLE_CD": {
+      "type": "string",
+      "required": true,
+      "description": "Job Role Code",
+      "isArray": false
+    },
+    "JOB_ROLE_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Job Role Name"
+    },
+    "SPECIALTY_CD": {
+      "type": "string",
+      "required": true,
+      "description": "Specialty Code"
+    },
+    "SPECIALTY_NM": {
+      "type": "string",
+      "required": true,
+      "description": "Specialty Name"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

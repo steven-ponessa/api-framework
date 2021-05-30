@@ -1,0 +1,14 @@
+{
+  "name": "t2CompNonGDPRCountContract",
+  "plural": "t2CompNonGDPRCountContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

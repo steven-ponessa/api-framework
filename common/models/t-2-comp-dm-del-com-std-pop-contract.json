@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDMDelComStdPopContract",
+  "plural": "t2CompDMDelComStdPopContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

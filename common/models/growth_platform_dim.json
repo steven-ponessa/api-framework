@@ -1,0 +1,51 @@
+{
+  "name": "GROWTH_PLATFORM_DIM",
+  "plural": "GROWTH_PLATFORM_DIM",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "GROWTH_PLATFORM_ID": {
+      "type": "number",
+      "required": false
+    },
+    "GROWTH_PLATFORM_CD": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "GROWTH_PLATFORM_NM": {
+      "type": "string",
+      "required": true
+    },
+    "GROWTH_PLATFORM_DESC": {
+      "type": "string",
+      "required": false
+    },
+    "STL_LVL15_CD": {
+      "type": "string",
+      "required": false
+    },
+    "BRAND_CD": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "brand_dims": {
+      "type": "referencesMany",
+      "model": "BRAND_DIM",
+      "foreignKey": "BRAND_CD",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

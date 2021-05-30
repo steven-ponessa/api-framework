@@ -1,0 +1,75 @@
+{
+  "PHDb - Services": {
+    "name": "PHDb - Services",
+    "connector": "memory",
+    "file": "services.json",
+    "localStorage": ""
+  },
+  "PHDb - Development": {
+    "name": "PHDb - Development",
+    "schema": "PHD"
+  },
+  "PHDb - Menus": {
+    "name": "PHDb - Menus",
+    "connector": "memory",
+    "file": "menus.json"
+  },
+  "PHDb - API Stub": {
+    "name": "PHDb - API Stub",
+    "connector": "memory",
+    "file": "apiStub.json"
+  },
+  "PHDb - phdbarch": {
+    "name": "PHDb - phdbarch",
+    "schema": "PHD"
+  },
+  "PHDb - CTRLCTR": {
+    "name": "PHDb - CTRLCTR",
+    "schema": "CTRLCTR"
+  },
+  "PHDb - Development APP": {
+    "name": "PHDb - Development APP",
+    "schema": "APP"
+  },
+  "GBS_PRIVATE_CLOUD_POC": {
+    "host": "dashdb-txn-sbox-yp-dal09-10.services.dal.bluemix.net",
+    "port": 50000,
+    "database": "BLUDB",
+    "password": "t4+r4phccs95xqfr",
+    "name": "GBS_PRIVATE_CLOUD_POC",
+    "connector": "db2",
+    "dsn": "DATABASE=BLUDB;HOSTNAME=dashdb-txn-sbox-yp-dal09-10.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=rqg40283;PWD=t4+r4phccs95xqfr;",
+    "user": "rqg40283",
+    "schema": "RQG40283"
+  },
+  "GBS_RAH_DM_TEST": {
+    "host": "b01zvi23736591.ahe.pok.ibm.com",
+    "port": 60010,
+    "database": "mtxgbst",
+    "password": "Vr=QdVZ]uTEjSly8",
+    "name": "GBS_RAH_DM_TEST",
+    "connector": "db2",
+    "user": "ponessa",
+    "schema": "METRICS",
+    "QUERYTIMEOUTINTERVAL": "0",
+    "sslCertLocation": "cert-dev/b01zvi23736591.arm",
+    "sslConnection": "true",
+    "dsn": "DATABASE=mtxgbst;HOSTNAME=b01zvi23736591.ahe.pok.ibm.com;PORT=60010;PROTOCOL=TCPIP;UID=ponessa;PWD=Vr=QdVZ]uTEjSly8;SSLCONNECTION=true;SSLServerCertificate=cert-dev/b01zvi23736591.arm;"
+  },
+  "BMSIW-SIW-BMSIW": {
+    "name": "BMSIW-SIW-BMSIW",
+    "connector": "db2",
+    "dsn": "DATABASE=MWNCDSNB;HOSTNAME=bldbmsa.boulder.ibm.com;UID=BMSDAAS;PWD=55five55;PORT=5031;PROTOCOL=TCPIP;sslConnection=true;",
+    "schema": "BMSIW"
+  },
+  "DB2-CONTAINER-INST": {
+    "host": "host.docker.internal",
+    "port": 50000,
+    "database": "apidemo",
+    "password": "mY%tEst%pAsSwOrD",
+    "name": "DB2-CONTAINER-INST",
+    "connector": "db2",
+    "user": "DB2INST1",
+    "schema": "EDS"
+  }
+}

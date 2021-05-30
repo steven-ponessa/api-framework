@@ -1,0 +1,100 @@
+{
+  "name": "GIC_ORGANIZATION_DIM",
+  "plural": "GIC_ORGANIZATION_DIM",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CIC_CENTER_ID": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "CIC_CENTER_GROUP_NM": {
+      "type": "string",
+      "required": true
+    },
+    "RAH_CIC_CENTER_GROUP_NM": {
+      "type": "string",
+      "required": false
+    },
+    "CIC_CENTER_NM": {
+      "type": "string",
+      "required": true
+    },
+    "TYPE_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Center Type Code.  C=Country, L=Location, E=Extension, M=Market, X=Other"
+    },
+    "GIC_RECOGNIZED_FLG": {
+      "type": "string",
+      "required": false,
+      "description": "String indicating if the center is recognized as a GIC organization"
+    },
+    "GIC_CPSD_CNT": {
+      "type": "number",
+      "required": false
+    },
+    "COC_CNT": {
+      "type": "number",
+      "required": false
+    },
+    "GIC_TYPE_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Identifies the GIC Type. G=Global, N=Near Shore, U=Unknown"
+    },
+    "GIC_TYPE_NM": {
+      "type": "string",
+      "required": false
+    },
+    "STATE_NM": {
+      "type": "string",
+      "required": false
+    },
+    "ALT_CIC_CENTER_NM": {
+      "type": "string",
+      "required": false
+    },
+    "GEO_NM": {
+      "type": "string",
+      "required": false
+    },
+    "GEO_CD": {
+      "type": "string",
+      "required": false
+    },
+    "MKT_NM": {
+      "type": "string",
+      "required": false
+    },
+    "MKT_CD": {
+      "type": "string",
+      "required": false
+    },
+    "RGN_NM": {
+      "type": "string",
+      "required": false
+    },
+    "RGN_CD": {
+      "type": "string",
+      "required": false
+    },
+    "CTRY_CD": {
+      "type": "string",
+      "required": false
+    },
+    "CTRY_DESC": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

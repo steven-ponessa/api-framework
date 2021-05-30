@@ -1,0 +1,41 @@
+{
+  "name": "SERVICE_LINE_DIM",
+  "plural": "SERVICE_LINE_DIM",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "DCC_CD": {
+      "type": "string",
+      "required": false
+    },
+    "GROWTH_PLATFORM_CD": {
+      "type": "string",
+      "required": true
+    },
+    "SERVICE_LINE_CD": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "SERVICE_LINE_DESC": {
+      "type": "string",
+      "required": false
+    },
+    "SERVICE_LINE_NM": {
+      "type": "string",
+      "required": true
+    },
+    "STL_LVL17_CD": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

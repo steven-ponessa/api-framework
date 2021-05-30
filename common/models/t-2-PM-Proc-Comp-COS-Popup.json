@@ -1,0 +1,14 @@
+{
+  "name": "t2PMProcCompCOSPopup",
+  "plural": "t2PMProcCompCOSPopup",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "t2gppDetailsQtrFinContract",
+  "plural": "t2gppDetailsQtrFinContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

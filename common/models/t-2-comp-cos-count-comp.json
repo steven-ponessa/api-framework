@@ -1,0 +1,14 @@
+{
+  "name": "t2CompCOSCountComp",
+  "plural": "t2CompCOSCountComp",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

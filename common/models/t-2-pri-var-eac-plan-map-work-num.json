@@ -1,0 +1,14 @@
+{
+  "name": "t2PriVarEacPlanMapWorkNum",
+  "plural": "t2PriVarEacPlanMapWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Parameter",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "dataType": {
+      "type": "number",
+      "required": true,
+      "description": "Enumerated data type of parameter"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Parameter description"
+    },
+    "domain": {
+      "type": "string",
+      "required": false,
+      "description": "Domain of valid values (future release)"
+    },
+    "externalName": {
+      "type": "string",
+      "required": false,
+      "description": "External Name"
+    },
+    "name": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true,
+      "description": "Parameter Name",
+      "isArray": false
+    },
+    "requiredInd": {
+      "type": "boolean",
+      "required": false,
+      "description": "Required Indicator (default false, Optional)"
+    },
+    "serviceName": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true,
+      "description": "Service Name",
+      "isArray": false
+    },
+    "defaultValue": {
+      "type": "any",
+      "required": false,
+      "description": "Default Value when parameter is missing"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,1553 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Service": {
+    "dataSource": "PHDb - Services",
+    "public": true
+  },
+  "Parameter": {
+    "dataSource": "PHDb - Services",
+    "public": true
+  },
+  "ApiController": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": false
+  },
+  "t1TieredLeakage": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "Menu": {
+    "dataSource": "PHDb - Menus",
+    "public": true,
+    "strict": true
+  },
+  "MenuItem": {
+    "dataSource": "PHDb - Menus",
+    "public": true,
+    "strict": true
+  },
+  "phdbFilter": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "ApiStub": {
+    "dataSource": "PHDb - API Stub",
+    "public": true
+  },
+  "t1FinancialSummary": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": false
+  },
+  "t2ReportVariance": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ReportLeakage12MthTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TopContributorsWorkPopupDetail": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TopContributorsContractPopupDetail": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TopContributorsQtrGpLeakageWorkNumber": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TopContributorsQtrGpLeakageContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ReportTieredLeakagePercentage": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ReportTieredLeakageWorkCount": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ReportTieredLeakageContractCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ReportTieredLeakageMillions": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2TopContributorsEac2PlanWorkNumber": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2TopContributorsEac2PlanContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2TopContributorsCostOverrunWorkNumber": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": false
+  },
+  "t2TopContributorsCostOverrunContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "ApiStubSimple": {
+    "dataSource": "PHDb - API Stub",
+    "public": true,
+    "strict": true
+  },
+  "entitlement": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthWorkPopupDetail": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthContractPopupDetail": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthWorkNumExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthContractExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "financialSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "financialQuarters": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthExclusionContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthExclusionWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PlanHealthView": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthExclusionDetailsWorkNumber": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PlanHealthExclusionDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "T2planHealthExclusionTrendContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "T2planHealthExclusionTrendWorkNumber": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2BusinessLeakageContractPopupDetail": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2BusinessLeakageWorkPopupDetail": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1BusinessGPLeakage": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2BusinessLeakageExpansionContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2BusinessLeakageExpansionWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2BusinessLeakageExpansionDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2BusinessLeakageExpansionDetailsWorkNumber": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2BusinessLeakageExpansionExclusionTrendPercentage": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2BusinessLeakageExpansionContractTotal": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": false
+  },
+  "t2BusinessLeakageExpansionWorkNumTotal": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2BusinessLeakageExpansionExclusionTrendMillions": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2BusinessLeakageExpansionExclusionTrendPercentageWork": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2BusinessLeakageExpansionExclusionTrendMillionsWork": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1OperGPLeakage": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageCountContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageCountWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageTrendMillContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageTrendMillWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageTrendPercContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageTrendPercWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageDetailsWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakagePopupContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakagePopupWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageTotalContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2OperLeakageTotalWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1CompScorecard": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TieredLeakContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TieredLeakContractExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TieredLeakWorkNumExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TieredLeakWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "USER_ACKNOWLEDGEMENTS": {
+    "dataSource": "PHDb - phdbarch",
+    "public": true
+  },
+  "t2CompSummaryGeo": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2CompSummaryGrowthPltfrm": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "complianceSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCPMTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCPMDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "entitlementLineage": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "cpmComplianceSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ExpCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ExpContractList": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ExpTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ExpDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ExpDetailsWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ExpExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ExpExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppTrendMonthFin": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppTrendQtrFin": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppTrendMonthPlan": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PredRisk": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsMonthPlanContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsMonthPlanWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1UBAR": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBCountContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBCountWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBDetailsWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBTrendContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBTrendWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBExpanClient": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBExpanContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBExpanWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBExportClient": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCPMExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "systemMessagesToDisplay": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cpmQuarters": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "ubarSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2gppSideQtrFin": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2gppSideMonthFin": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2gppSideITDFin": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2gppSideQTDFin": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2gppSideMonthPlan": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2UBAlertWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBAlertExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppTrendQTDFin": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppTrendITDFin": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsMonthFinContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsMonthFinWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsQtrFinContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsQtrFinWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsITDFinContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsITDFinWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsQTDFinContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2gppDetailsQTDFinWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "phdPageLogger": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "phdFilterLogger": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBDetailsClient": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBAlertContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBAlertExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "gppSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2UBCountClient": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriVarEacPlanMapContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriVarEacPlanMapWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriVarEacPlanDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriVarEacPlanDetailsWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopCIContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopTrendContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopCIWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopTrendWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriAllViewBy": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "cpmPhaseGateSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCPMCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGCountComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGTrendComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGDetailsComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGPopupSum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGPopupDet": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "cpmExpanList": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGCountPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGTrendPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompPGDetailsPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "cpm7KeysSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KCountComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KTrendComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KDetailsComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KPopup": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KCountPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KTrendPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2Comp7KDetailsPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "cpmIPPFSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompIPPFCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompIPPFTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompIPPFDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompIPPFPopup": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompIPPFExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompIPPFExportMetric": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCPMExportMetric": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCPMPopInfo": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCPMPopView": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "cpmCOSSnapshots": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSCountComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSTrendComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSDetailsComp": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSPopup": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSExportMetric": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSCountPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSTrendPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompCOSDetailsPerf": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1GPLeak": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCountContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCountWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendMthContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendQtrContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendMthWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendQtrWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakDetailsWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakPopupContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakPopupWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExpanContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExpanWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "CC_USAGE": {
+    "dataSource": "PHDb - CTRLCTR"
+  },
+  "t2GPLeakTrendMthMetContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendQtrMetContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendMthMetWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendQtrMetWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMContPerfPCContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMContPerfPCWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMPlanPerfContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMPlanPerfWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMFinPerfMthPCContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMFinPerfMthPCWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMTrendIncepContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMTrendIncepWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMFooterContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMFooterWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMProcCompContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMProcCompWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMPRIWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMContractList": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMWorkNumList": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PMProcComp7KPopup": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PMProcCompPGPopupSum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PMProcCompPGPopupDet": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PMProcCompCOSPopup": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PMProcCompGDPRPopup": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PMMultiSelect": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopRiskWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLCountContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLCountWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLCountWorkNumAll": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendMthContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendQtrContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendMthWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendQtrWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendMthMetContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendQtrMetContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendMthMetWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLTrendQtrMetWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLDetailsWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLPopupContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLPopupWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPlanWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCountCQQContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCountCQMContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCountCQQWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCountCQMWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendCQMContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendCQMWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendCQQContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakTrendCQQWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakDetailsCQQContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakDetailsCQMContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakDetailsCQQWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakDetailsCQMWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1Search": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2TLWorldWideWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t1PMContractListPHD": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakMetPopupContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakMetPopupWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExportCQQContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExportCQMContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExportCQQWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakExportCQMWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDSCount": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2CompDSTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2CompDSDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2CompDSPopup": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2CompDSExport": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ActPortDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ActPortExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2GPLeakPopupCQQContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2GPLeakPopupCQQWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2GPLeakPopupCQMContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2GPLeakPopupCQMWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ActPortSrchContract": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2CompGDPRPopupContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNonGDPRTrendContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNonGDPRCountContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNonGDPRDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNonGDPRExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompGDPRImpCountContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompGDPRImpDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompGDPRImpExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompGDPRImpTrendContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNotAsdGDPRCountContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNotAsdGDPRDetailsContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNotAsdGDPRExportContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompNotAsdGDPRTrendContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ActPortSrchClient": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ActPortSrchWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntGetAll": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntAdd": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntUpdate": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntStatus": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntReply": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntReplyUpdate": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntReplyStatus": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "cmntMetrics": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2PriAllViewByContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopRiskContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPlanContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelProfCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelProfTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelProfDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelProfExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMPopContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMPopOppty": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolProfCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolProfTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolProfDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolProfExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2ActPortDetailsWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2ActPortExportWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true,
+    "strict": true
+  },
+  "t2CompDMDelStdCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelStdTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelComStdDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelComStdExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelDevStdDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelDevStdExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolStdCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolStdTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolComStdDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolComStdExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolDevStdDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolDevStdExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelComStdPopContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelDevStdPopContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolComStdPopOppty": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolDevStdPopOppty": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopInclWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopInclContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCORCountMthWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCORTrendMthWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCORDetailsMthWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2GPLeakCORWWWorkNum": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2PriPopDEContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelUsgCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelUsgTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelUsgDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelUsgExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolUsgCount": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolUsgTrend": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelDevSLMDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolUsgDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolDevSLMDetails": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDelDevSLMExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolUsgExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMSolDevSLMExport": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMUsgPopContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDevSLMPopContract": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMUsgPopOppty": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "t2CompDMDevSLMPopOppty": {
+    "dataSource": "PHDb - Development",
+    "public": true
+  },
+  "GEO_MKT_RGN_CTRY_STG": {
+    "dataSource": "GBS_PRIVATE_CLOUD_POC",
+    "public": true,
+    "strict": true
+  },
+  "JRS_DIM": {
+    "dataSource": "GBS_PRIVATE_CLOUD_POC",
+    "public": true,
+    "strict": true
+  },
+  "SCORE_GEOGRAPHY_SUPPLY_V": {
+    "dataSource": "GBS_PRIVATE_CLOUD_POC",
+    "public": true,
+    "strict": true
+  },
+  "GIC_ORGANIZATION_DIM": {
+    "dataSource": "GBS_PRIVATE_CLOUD_POC",
+    "public": true,
+    "strict": true
+  },
+  "COC_DIM": {
+    "dataSource": "GBS_RAH_DM_TEST",
+    "public": true,
+    "strict": true
+  },
+  "BMDIV_LOB_V": {
+    "dataSource": "BMSIW-SIW-BMSIW",
+    "public": true
+  },
+  "REFT_GROWTH_PLATFORM_DIM": {
+    "dataSource": "DB2-CONTAINER-INST",
+    "public": true,
+    "strict": true
+  },
+  "BRAND_DIM": {
+    "dataSource": "DB2-CONTAINER-INST",
+    "public": true,
+    "strict": true
+  },
+  "GROWTH_PLATFORM_DIM": {
+    "dataSource": "DB2-CONTAINER-INST",
+    "public": true,
+    "strict": true
+  },
+  "VW_JRS_DIM": {
+    "dataSource": "DB2-CONTAINER-INST",
+    "public": true,
+    "strict": true
+  },
+  "SERVICE_LINE_DIM": {
+    "dataSource": "DB2-CONTAINER-INST",
+    "public": true
+  },
+  "getResourceByGrowthPlatform": {
+    "dataSource": "DB2-CONTAINER-INST",
+    "public": true,
+    "strict": true
+  },
+  "getBrandTest": {
+    "dataSource": "GBS_PRIVATE_CLOUD_POC",
+    "public": true,
+    "strict": true
+  }
+}

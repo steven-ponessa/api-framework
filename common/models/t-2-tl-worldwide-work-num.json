@@ -1,0 +1,14 @@
+{
+  "name": "t2TLWorldWideWorkNum",
+  "plural": "t2TLWorldWideWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

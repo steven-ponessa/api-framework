@@ -1,0 +1,14 @@
+{
+  "name": "t1PMPlanPerfContract",
+  "plural": "t1PMPlanPerfContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

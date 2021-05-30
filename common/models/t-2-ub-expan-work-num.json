@@ -1,0 +1,14 @@
+{
+  "name": "t2UBExpanWorkNum",
+  "plural": "t2UBExpanWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

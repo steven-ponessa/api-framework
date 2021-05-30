@@ -1,0 +1,14 @@
+{
+  "name": "t2ReportLeakage12MthTrend",
+  "plural": "t2ReportLeakage12MthTrend",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,365 @@
+{
+  "ids": {
+    "Menu": 8,
+    "MenuItem": 22
+  },
+  "models": {
+    "Menu": {
+      "viewBy1.1": "{\"menuCd\":\"viewBy1.1\",\"menuDescription\":\"Business Attribute options.\"}",
+      "viewBy1.2": "{\"menuCd\":\"viewBy1.2\",\"menuDescription\":\"Second 'View by' dropdown on tiered leakage.\"}",
+      "viewBy1.3": "{\"menuCd\":\"viewBy1.3\",\"menuDescription\":\"Second 'View by' dropdown on Business Leakage.\"}",
+      "viewBy2.1": "{\"menuCd\":\"viewBy2.1\",\"menuDescription\":\"Top contributors (2) first view by.\"}",
+      "viewBy2.2": "{\"menuCd\":\"viewBy2.2\",\"menuDescription\":\"Tiered Leakage Contract or Work Number options.\"}",
+      "viewBy2.3": "{\"menuCd\":\"viewBy2.3\",\"menuDescription\":\"Plan Health second view by.\"}",
+      "viewBy2.4": "{\"menuCd\":\"viewBy2.4\",\"menuDescription\":\"Business Leakage contingency.\"}",
+      "viewBy2.5": "{\"menuCd\":\"viewBy2.5\",\"menuDescription\":\"Business Leakage % or $M.\"}",
+      "viewBy3.0": "{\"menuCd\":\"viewBy3.0\",\"menuDescription\":\"Compliance Summary Geo View By Options.\"}",
+      "viewBy3.1": "{\"menuCd\":\"viewBy3.1\",\"menuDescription\":\"CPM Compliance Trend View By Options.\"}",
+      "viewBy3.2": "{\"menuCd\":\"viewBy3.2\",\"menuDescription\":\"CPM Compliant or Non Compliant View By Options.\"}",
+      "viewBy3.3": "{\"menuCd\":\"viewBy3.3\",\"menuDescription\":\"CPM Compliance Geo View By Options.\"}",
+      "viewBy3.4": "{\"menuCd\":\"viewBy3.4\",\"menuDescription\":\"CPM Assigned or Not Assigned View By Options.\"}",
+      "viewBy3.5": "{\"menuCd\":\"viewBy3.5\",\"menuDescription\":\"Tiered Leakage Status Toggle.\"}",
+      "viewBy3.6": "{\"menuCd\":\"viewBy3.6\",\"menuDescription\":\"Contract Expansion view by.\"}",
+      "viewBy3.7": "{\"menuCd\":\"viewBy3.7\",\"menuDescription\":\"%, $ # toggle options.\"}",
+      "viewBy4.0": "{\"menuCd\":\"viewBy4.0\",\"menuDescription\":\"Include or Exclude NGP toggle\"}",
+      "viewBy4.1": "{\"menuCd\":\"viewBy4.1\",\"menuDescription\":\"Net or Gross Leakage toggle\"}",
+      "viewBy4.2": "{\"menuCd\":\"viewBy4.2\",\"menuDescription\":\"Plan Health Business Attribute values\"}",
+      "viewBy4.3": "{\"menuCd\":\"viewBy4.3\",\"menuDescription\":\"UBAR Expansion view by\"}",
+      "viewBy4.4": "{\"menuCd\":\"viewBy4.4\",\"menuDescription\":\"UBAR Expansion POC options\"}",
+      "viewBy4.5": "{\"menuCd\":\"viewBy4.5\",\"menuDescription\":\"UBAR Alert options\"}",
+      "viewBy4.6": "{\"menuCd\":\"viewBy4.6\",\"menuDescription\":\"PRI view by options\"}",
+      "viewBy4.7": "{\"menuCd\":\"viewBy4.7\",\"menuDescription\":\"PRI view by busAttr options\"}", 
+      "viewBy4.8": "{\"menuCd\":\"viewBy4.8\",\"menuDescription\":\"IPPF Required options\"}",
+      "viewBy4.9": "{\"menuCd\":\"viewBy4.9\",\"menuDescription\":\"IPPF Submitted options\"}",
+      "viewBy4.10": "{\"menuCd\":\"viewBy4.10\",\"menuDescription\":\"IPPF Approved options\"}",
+      "viewBy4.11": "{\"menuCd\":\"viewBy4.11\",\"menuDescription\":\"Tiered Leakage Business Attribute options.\"}", 
+      "viewBy4.12": "{\"menuCd\":\"viewBy4.12\",\"menuDescription\":\"TL Tier values\"}",
+      "viewBy4.13": "{\"menuCd\":\"viewBy4.13\",\"menuDescription\":\"UBAR Summary tab, client busAttr values\"}", 
+
+      "viewBy20.1": "{\"menuCd\":\"viewBy20.1\",\"menuDescription\":\"Plan Health Radio button options.\"}",
+      "viewBy20.2": "{\"menuCd\":\"viewBy20.2\",\"menuDescription\":\"Business Leakage Radio button options.\"}",
+      "viewBy20.3": "{\"menuCd\":\"viewBy20.3\",\"menuDescription\":\"Operational Leakage Radio button options.\"}",
+      "viewBy20.4": "{\"menuCd\":\"viewBy20.4\",\"menuDescription\":\"Compliance CPM Radio button options.\"}",
+      "viewBy20.5": "{\"menuCd\":\"viewBy20.5\",\"menuDescription\":\"Contract Expansion Metric level 1 options.\"}",
+      "viewBy20.6": "{\"menuCd\":\"viewBy20.6\",\"menuDescription\":\"Contract Expansion Metric level 2 options.\"}",
+      "viewBy20.7": "{\"menuCd\":\"viewBy20.7\",\"menuDescription\":\"Financial Performance GPP options.\"}",
+      "viewBy20.8": "{\"menuCd\":\"viewBy20.8\",\"menuDescription\":\"Phase Gate Compliant or Non Compliant Options.\"}",
+      "viewBy20.9": "{\"menuCd\":\"viewBy20.9\",\"menuDescription\":\"Phase Gate Compliance Radio Button Options.\"}",
+      "viewBy20.10": "{\"menuCd\":\"viewBy20.10\",\"menuDescription\":\"Phase Gate Performance Radio Button Options.\"}",
+      "viewBy20.11": "{\"menuCd\":\"viewBy20.11\",\"menuDescription\":\"IPPF Metric Radio Button Options.\"}",
+      "viewBy20.12": "{\"menuCd\":\"viewBy20.12\",\"menuDescription\":\"CoS Metric Options.\"}",
+      "viewBy20.13": "{\"menuCd\":\"viewBy20.13\",\"menuDescription\":\"GP Leakage radio button options\"}",
+      "viewBy20.14": "{\"menuCd\":\"viewBy20.14\",\"menuDescription\":\"PRI Work number Model options\"}",
+      "viewBy20.15": "{\"menuCd\":\"viewBy20.15\",\"menuDescription\":\"PRI Target Plan options\"}",
+      "viewBy20.16": "{\"menuCd\":\"viewBy20.16\",\"menuDescription\":\"PRI Level options\"}",
+      "viewBy20.17": "{\"menuCd\":\"viewBy20.17\",\"menuDescription\":\"PRI DE exclusion options\"}",
+      "viewBy20.18": "{\"menuCd\":\"viewBy20.18\",\"menuDescription\":\"Active Portfolio org options\"}",
+      "viewBy20.19": "{\"menuCd\":\"viewBy20.19\",\"menuDescription\":\"Active Portfolio cpm metric options\"}",
+      "viewBy20.20": "{\"menuCd\":\"viewBy20.20\",\"menuDescription\":\"Active Portfolio leak metric options\"}",
+      "viewBy20.21": "{\"menuCd\":\"viewBy20.21\",\"menuDescription\":\"Active Portfolio ubar options\"}",
+      "viewBy20.22": "{\"menuCd\":\"viewBy20.22\",\"menuDescription\":\"Active Portfolio GPP options\"}",
+      "viewBy20.23": "{\"menuCd\":\"viewBy20.23\",\"menuDescription\":\"Active Portfolio project options\"}",
+      "viewBy20.24": "{\"menuCd\":\"viewBy20.24\",\"menuDescription\":\"CPM Delivery Start compliance options\"}",
+      "viewBy20.25": "{\"menuCd\":\"viewBy20.25\",\"menuDescription\":\"GDPR Impacted Contracts options\"}",
+      "viewBy20.26": "{\"menuCd\":\"viewBy20.26\",\"menuDescription\":\"Non-GDPR Impacted Contracts options\"}",
+      "viewBy20.27": "{\"menuCd\":\"viewBy20.27\",\"menuDescription\":\"Active Contracts Not Assessed for GDPR options\"}",
+      "viewBy20.30": "{\"menuCd\":\"viewBy20.30\",\"menuDescription\":\"Delivery Methods Metric options\"}",
+      "viewBy20.31": "{\"menuCd\":\"viewBy20.31\",\"menuDescription\":\"Delivery Methods Measurement Profile options\"}",
+      "viewBy20.32": "{\"menuCd\":\"viewBy20.32\",\"menuDescription\":\"Delivery Methods Submission options\"}",
+      "viewBy20.33": "{\"menuCd\":\"viewBy20.33\",\"menuDescription\":\"Delivery Methods Compliance options\"}",
+      "viewBy20.34": "{\"menuCd\":\"viewBy20.34\",\"menuDescription\":\"Delivery Methods Measurement Standards options\"}",
+      "viewBy20.35": "{\"menuCd\":\"viewBy20.35\",\"menuDescription\":\"Delivery Methods Deviation options\"}",
+      "viewBy20.36": "{\"menuCd\":\"viewBy20.36\",\"menuDescription\":\"PRI Contract Model options\"}",
+      "viewBy20.37": "{\"menuCd\":\"viewBy20.37\",\"menuDescription\":\"Delivery Methods Usage and Deviation options\"}",
+      "viewBy20.38": "{\"menuCd\":\"viewBy20.38\",\"menuDescription\":\"Delivery Methods Usage options\"}",
+      "viewBy20.39": "{\"menuCd\":\"viewBy20.39\",\"menuDescription\":\"Delivery Start Metric options\"}"
+    },
+    "MenuItem": {
+      "1": "{\"menuCd\":\"viewBy1.1\",\"value\":\"GEO_ABBR\",\"valueDesc\":\"GEO_DESC\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":1}",
+      "2": "{\"menuCd\":\"viewBy1.1\",\"value\":\"MKT_ABBR\",\"valueDesc\":\"MKT_DESC\",\"label\":\"Market \/ Region\",\"menuItemId\":2,\"id\":2}",
+      "3": "{\"menuCd\":\"viewBy1.1\",\"value\":\"GROWTH_PLATFORM_ABBR\",\"valueDesc\":\"GROWTH_PLATFORM_DESC\",\"label\":\"Growth Platform\",\"menuItemId\":3,\"id\":3}",
+      "4": "{\"menuCd\":\"viewBy1.1\",\"value\":\"SVC_LINE_ABBR\",\"valueDesc\":\"SVC_LINE_DESC\",\"label\":\"Service Line\",\"menuItemId\":4,\"id\":4}",
+      "5": "{\"menuCd\":\"viewBy1.1\",\"value\":\"PRACTICE_CD\",\"valueDesc\":\"PRACTICE_NM\",\"label\":\"Practice\",\"menuItemId\":5,\"id\":5}",
+      "6": "{\"menuCd\":\"viewBy1.1\",\"value\":\"SECTOR_ABBR\",\"valueDesc\":\"SECTOR_DESC\",\"label\":\"Sector\",\"menuItemId\":6,\"id\":6}",
+      "7": "{\"menuCd\":\"viewBy1.1\",\"value\":\"INDUSTRY_ABBR\",\"valueDesc\":\"INDUSTRY_DESC\",\"label\":\"Industry\",\"menuItemId\":7,\"id\":7}",
+      
+      "9": "{\"menuCd\":\"viewBy1.2\",\"value\":\"MIL\",\"menuItemId\":1,\"label\":\"$ Million\",\"id\":9}",
+      "10": "{\"menuCd\":\"viewBy1.2\",\"value\":\"PER\",\"menuItemId\":2,\"label\":\"Percentage\",\"id\":10}",
+      "11": "{\"menuCd\":\"viewBy1.2\",\"value\":\"CC\",\"menuItemId\":3,\"label\":\"Contract Count\",\"id\":11}",
+      "12": "{\"menuCd\":\"viewBy1.2\",\"value\":\"WNC\",\"menuItemId\":4,\"label\":\"Work No. Count\",\"id\":12}",
+
+
+      "16": "{\"menuCd\":\"viewBy2.1\",\"value\":\"FC_EAC_AP\",\"menuItemId\":2,\"label\":\"FC EaC to AP\",\"color\":\"#FC6227\",\"tiered_label\":\"Tiered Leakage\",\"id\":16}",
+      "17": "{\"menuCd\":\"viewBy2.1\",\"value\":\"COST_OVER\",\"menuItemId\":3,\"label\":\"3 Mo. Cost Overrun\",\"color\":\"#26D181\",\"tiered_label\":\"Tiered Leakage\",\"id\":17}",
+
+
+      "19": "{\"menuCd\":\"viewBy2.2\",\"value\":\"WC\",\"menuItemId\":2,\"label\":\"Work No.\",\"id\":19}",
+      "20": "{\"menuCd\":\"viewBy2.3\",\"value\":\"CC\",\"menuItemId\":1,\"label\":\"Contract\",\"id\":20}",
+      "21": "{\"menuCd\":\"viewBy2.3\",\"value\":\"WNC\",\"menuItemId\":2,\"label\":\"Work No.\",\"id\":21}",
+
+      "30": "{\"menuCd\":\"viewBy2.4\",\"value\":\" \",\"menuItemId\":1,\"label\":\"Without Contingency\",\"id\":30}",
+      "31": "{\"menuCd\":\"viewBy2.4\",\"value\":\"_W_CNTGCY\",\"menuItemId\":2,\"label\":\"With Contingency\",\"id\":31}",
+      "35": "{\"menuCd\":\"viewBy2.5\",\"value\":\"PER\",\"menuItemId\":1,\"label\":\"%\",\"id\":35}",
+      "36": "{\"menuCd\":\"viewBy2.5\",\"value\":\"MIL\",\"menuItemId\":2,\"label\":\"$M\",\"id\":36}",
+
+      "40": "{\"menuCd\":\"viewBy3.0\",\"value\":\"GEO_ABBR\",\"valueDesc\":\"GEO_ABBR\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":40}",
+      "41": "{\"menuCd\":\"viewBy3.0\",\"value\":\"GROWTH_PLATFORM_ABBR\",\"valueDesc\":\"GROWTH_PLATFORM_ABBR\",\"label\":\"Growth Platform\",\"menuItemId\":2,\"id\":41}",
+
+      "50": "{\"menuCd\":\"viewBy1.3\",\"value\":\"CC\",\"menuItemId\":1,\"label\":\"Contract\",\"id\":50}",
+      "51": "{\"menuCd\":\"viewBy1.3\",\"value\":\"WNC\",\"menuItemId\":2,\"label\":\"Work No.\",\"id\":51}",
+      
+      "60": "{\"menuCd\":\"viewBy3.1\",\"value\":\"PER\",\"label\":\"%\",\"menuItemId\":1,\"id\":60}",
+      "61": "{\"menuCd\":\"viewBy3.1\",\"value\":\"COUNT\",\"label\":\"Count\",\"menuItemId\":2,\"id\":61}",
+      "62": "{\"menuCd\":\"viewBy3.2\",\"value\":\"NONCOMP\",\"label\":\"Non Compliant\",\"export_label\":\"Non-Compliant view\",\"menuItemId\":1,\"id\":62}",
+      "63": "{\"menuCd\":\"viewBy3.2\",\"value\":\"COMP\",\"label\":\"Compliant\",\"export_label\":\"Compliant view\",\"menuItemId\":2,\"id\":63}",
+
+      "70": "{\"menuCd\":\"viewBy3.3\",\"value\":\"GEO_ABBR\",\"valueDesc\":\"GEO_DESC\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":70}",
+      "71": "{\"menuCd\":\"viewBy3.3\",\"value\":\"MKT_ABBR\",\"valueDesc\":\"MKT_DESC\",\"label\":\"Market \/ Region\",\"menuItemId\":2,\"id\":71}",
+      "72": "{\"menuCd\":\"viewBy3.3\",\"value\":\"CTRY_ABBR\",\"valueDesc\":\"CTRY_DESC\",\"label\":\"Country\",\"menuItemId\":3,\"id\":72}",
+      "73": "{\"menuCd\":\"viewBy3.3\",\"value\":\"GROWTH_PLATFORM_ABBR\",\"valueDesc\":\"GROWTH_PLATFORM_DESC\",\"label\":\"Growth Platform\",\"menuItemId\":4,\"id\":73}",
+      "74": "{\"menuCd\":\"viewBy3.3\",\"value\":\"SVC_LINE_ABBR\",\"valueDesc\":\"SVC_LINE_DESC\",\"label\":\"Service Line\",\"menuItemId\":5,\"id\":74}",
+      "75": "{\"menuCd\":\"viewBy3.3\",\"value\":\"PRACTICE_CD\",\"valueDesc\":\"PRACTICE_NM\",\"label\":\"Practice\",\"menuItemId\":6,\"id\":75}",
+      "76": "{\"menuCd\":\"viewBy3.3\",\"value\":\"SECTOR_ABBR\",\"valueDesc\":\"SECTOR_DESC\",\"label\":\"Sector\",\"menuItemId\":7,\"id\":76}",
+      "77": "{\"menuCd\":\"viewBy3.3\",\"value\":\"INDUSTRY_ABBR\",\"valueDesc\":\"INDUSTRY_DESC\",\"label\":\"Industry\",\"menuItemId\":8,\"id\":77}",
+
+      "80": "{\"menuCd\":\"viewBy3.7\",\"value\":\"PER\",\"label\":\"%\",\"menuItemId\":1,\"id\":80}",
+      "81": "{\"menuCd\":\"viewBy3.7\",\"value\":\"VAL\",\"label\":\"$\",\"menuItemId\":2,\"id\":81}",
+      "82": "{\"menuCd\":\"viewBy3.7\",\"value\":\"COUNT\",\"label\":\"#\",\"menuItemId\":3,\"id\":82}",
+
+      "85": "{\"menuCd\":\"viewBy3.4\",\"value\":\"NASND\",\"label\":\"Not Assigned\",\"export_label\":\"Not Assigned view\",\"menuItemId\":1,\"id\":85}",
+      "86": "{\"menuCd\":\"viewBy3.4\",\"value\":\"ASND\",\"label\":\"Assigned\",\"export_label\":\"Assigned view\",\"menuItemId\":2,\"id\":86}",
+      "87": "{\"menuCd\":\"viewBy3.5\",\"value\":\"_AC\",\"label\":\"Active & Closed\",\"menuItemId\":1,\"id\":87}",
+      "88": "{\"menuCd\":\"viewBy3.5\",\"value\":\" \",\"label\":\"Active\",\"menuItemId\":2,\"id\":88}",
+      "90": "{\"menuCd\":\"viewBy3.6\",\"value\":\"GEO_ABBR\",\"valueDesc\":\"GEO_ABBR\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":90}",
+      "91": "{\"menuCd\":\"viewBy3.6\",\"value\":\"MKT_ABBR\",\"valueDesc\":\"MKT_DESC\",\"label\":\"Market \/ Region\",\"menuItemId\":2,\"id\":91}",
+
+      "94": "{\"menuCd\":\"viewBy4.0\",\"value\":\"INGP\",\"menuItemId\":1,\"label\":\"Incl. nGP\",\"id\":94}",
+      "95": "{\"menuCd\":\"viewBy4.0\",\"value\":\"ENGP\",\"menuItemId\":2,\"label\":\"Excl. nGP\",\"id\":95}",
+      "96": "{\"menuCd\":\"viewBy4.1\",\"value\":\"GRS\",\"menuItemId\":1,\"label\":\"Gross Leakage\",\"id\":96}",
+      "97": "{\"menuCd\":\"viewBy4.1\",\"value\":\"NET\",\"menuItemId\":2,\"label\":\"Net Leakage\",\"id\":97}",
+
+      "98": "{\"menuCd\":\"viewBy4.2\",\"value\":\"GEO_ABBR\",\"valueDesc\":\"GEO_DESC\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":98}",
+      "99": "{\"menuCd\":\"viewBy4.2\",\"value\":\"MKT_ABBR\",\"valueDesc\":\"MKT_DESC\",\"label\":\"Market \/ Region\",\"menuItemId\":2,\"id\":99}",
+      "100": "{\"menuCd\":\"viewBy4.2\",\"value\":\"GROWTH_PLATFORM_ABBR\",\"valueDesc\":\"GROWTH_PLATFORM_DESC\",\"label\":\"Growth Platform\",\"menuItemId\":3,\"id\":100}",
+      "101": "{\"menuCd\":\"viewBy4.2\",\"value\":\"SVC_LINE_ABBR\",\"valueDesc\":\"SVC_LINE_DESC\",\"label\":\"Service Line\",\"menuItemId\":4,\"id\":101}",
+      "102": "{\"menuCd\":\"viewBy4.2\",\"value\":\"PRACTICE_CD\",\"valueDesc\":\"PRACTICE_NM\",\"label\":\"Practice\",\"menuItemId\":5,\"id\":102}",
+      "103": "{\"menuCd\":\"viewBy4.2\",\"value\":\"SECTOR_ABBR\",\"valueDesc\":\"SECTOR_DESC\",\"label\":\"Sector\",\"menuItemId\":6,\"id\":103}",
+      "104": "{\"menuCd\":\"viewBy4.2\",\"value\":\"INDUSTRY_ABBR\",\"valueDesc\":\"INDUSTRY_DESC\",\"label\":\"Industry\",\"menuItemId\":7,\"id\":104}",      
+
+      "105": "{\"menuCd\":\"viewBy4.3\",\"value\":\"CONT\",\"menuItemId\":1,\"label\":\"Contract\",\"id\":105}",
+      "106": "{\"menuCd\":\"viewBy4.3\",\"value\":\"WRK\",\"menuItemId\":2,\"label\":\"Work No.\",\"id\":106}",
+      "107": "{\"menuCd\":\"viewBy4.3\",\"value\":\"CN\",\"menuItemId\":3,\"label\":\"Client Name\",\"id\":107}",
+
+      "108": "{\"menuCd\":\"viewBy4.4\",\"value\":\"0\",\"operator\":\">\",\"menuItemId\":1,\"label\":\"All\",\"id\":108}",
+      "109": "{\"menuCd\":\"viewBy4.4\",\"value\":\"1\",\"operator\":\" \",\"menuItemId\":2,\"label\":\"POC\",\"id\":109}",
+      "110": "{\"menuCd\":\"viewBy4.4\",\"value\":\"0\",\"operator\":\" \",\"menuItemId\":3,\"label\":\"Non POC\",\"id\":110}",
+
+      "111": "{\"menuCd\":\"viewBy4.5\",\"value\":\"WRK\",\"menuItemId\":2,\"label\":\"Work Number\",\"id\":111}",
+      "112": "{\"menuCd\":\"viewBy4.5\",\"value\":\"CONT\",\"menuItemId\":1,\"label\":\"Contract Number\",\"id\":112}",
+
+      "113": "{\"menuCd\":\"viewBy4.6\",\"value\":\"WRK\",\"menuItemId\":2,\"label\":\"Work No.\",\"id\":113}",
+
+      "115": "{\"menuCd\":\"viewBy4.7\",\"value\":\"GEO_ABBR\",\"rankValue\":\"GEO_LVL1\",\"valueDesc\":\"GEO_DESC\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":115}",
+      "116": "{\"menuCd\":\"viewBy4.7\",\"value\":\"MKT_ABBR\",\"rankValue\":\"GEO_LVL2\",\"valueDesc\":\"MKT_DESC\",\"label\":\"Market \/ Region\",\"menuItemId\":2,\"id\":116}",
+      "117": "{\"menuCd\":\"viewBy4.7\",\"value\":\"GROWTH_PLATFORM_ABBR\",\"rankValue\":\"GRTH_PLFM\",\"valueDesc\":\"GROWTH_PLATFORM_DESC\",\"label\":\"Growth Platform\",\"menuItemId\":3,\"id\":117}",
+      "118": "{\"menuCd\":\"viewBy4.7\",\"value\":\"SVC_LINE_ABBR\",\"rankValue\":\"SVC_LINE\",\"valueDesc\":\"SVC_LINE_DESC\",\"label\":\"Service Line\",\"menuItemId\":4,\"id\":118}",
+      "119": "{\"menuCd\":\"viewBy4.7\",\"value\":\"PRACTICE_CD\",\"valueDesc\":\"PRACTICE_NM\",\"label\":\"Practice\",\"menuItemId\":5,\"id\":119}",
+      "120": "{\"menuCd\":\"viewBy4.7\",\"value\":\"SECTOR_ABBR\",\"rankValue\":\"SCTR\",\"valueDesc\":\"SECTOR_DESC\",\"label\":\"Sector\",\"menuItemId\":6,\"id\":120}",
+      "121": "{\"menuCd\":\"viewBy4.7\",\"value\":\"INDUSTRY_ABBR\",\"rankValue\":\"INDSTRY\",\"valueDesc\":\"INDUSTRY_DESC\",\"label\":\"Industry\",\"menuItemId\":7,\"id\":121}",
+
+      "122": "{\"menuCd\":\"viewBy4.8\",\"value\":\"0\",\"label\":\"Not Required\",\"export_label\":\"Not Required view\",\"menuItemId\":1,\"id\":122}",
+      "123": "{\"menuCd\":\"viewBy4.8\",\"value\":\"1\",\"label\":\"Required\",\"export_label\":\"Required view\",\"menuItemId\":2,\"id\":123}",
+
+      "124": "{\"menuCd\":\"viewBy4.9\",\"value\":\"0\",\"label\":\"Not Submitted\",\"export_label\":\"Not Submitted view\",\"menuItemId\":1,\"id\":124}",
+      "125": "{\"menuCd\":\"viewBy4.9\",\"value\":\"1\",\"label\":\"Submitted\",\"export_label\":\"Submitted view\",\"menuItemId\":2,\"id\":125}",
+
+      "126": "{\"menuCd\":\"viewBy4.10\",\"value\":\"0\",\"label\":\"Not Approved\",\"export_label\":\"Not Approved view\",\"menuItemId\":1,\"id\":126}",
+      "127": "{\"menuCd\":\"viewBy4.10\",\"value\":\"1\",\"label\":\"Approved\",\"export_label\":\"Approved view\",\"menuItemId\":2,\"id\":127}",
+
+      "130": "{\"menuCd\":\"viewBy4.11\",\"value\":\"GEO_ABBR\",\"valueDesc\":\"GEO_DESC\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":130}",
+      "131": "{\"menuCd\":\"viewBy4.11\",\"value\":\"MKT_ABBR\",\"valueDesc\":\"MKT_DESC\",\"label\":\"Market \/ Region\",\"menuItemId\":2,\"id\":131}",
+      "132": "{\"menuCd\":\"viewBy4.11\",\"value\":\"GROWTH_PLATFORM_ABBR\",\"valueDesc\":\"GROWTH_PLATFORM_DESC\",\"label\":\"Growth Platform\",\"menuItemId\":3,\"id\":132}",
+      "133": "{\"menuCd\":\"viewBy4.11\",\"value\":\"SVC_LINE_ABBR\",\"valueDesc\":\"SVC_LINE_DESC\",\"label\":\"Service Line\",\"menuItemId\":4,\"id\":133}",
+      "135": "{\"menuCd\":\"viewBy4.11\",\"value\":\"SECTOR_ABBR\",\"valueDesc\":\"SECTOR_DESC\",\"label\":\"Sector\",\"menuItemId\":6,\"id\":135}",
+      "136": "{\"menuCd\":\"viewBy4.11\",\"value\":\"INDUSTRY_ABBR\",\"valueDesc\":\"INDUSTRY_DESC\",\"label\":\"Industry\",\"menuItemId\":7,\"id\":136}",
+
+      "140": "{\"menuCd\":\"viewBy4.12\",\"value\":\"-1\",\"operator\":\">\",\"menuItemId\":1,\"label\":\"Tier All\",\"id\":140}",
+      "141": "{\"menuCd\":\"viewBy4.12\",\"value\":\"0\",\"operator\":\" \",\"menuItemId\":2,\"label\":\"Tier 0\",\"id\":141}",
+      "142": "{\"menuCd\":\"viewBy4.12\",\"value\":\"1\",\"operator\":\" \",\"menuItemId\":3,\"label\":\"Tier 1\",\"id\":142}",
+      "143": "{\"menuCd\":\"viewBy4.12\",\"value\":\"2\",\"operator\":\" \",\"menuItemId\":4,\"label\":\"Tier 2\",\"id\":143}",
+      "144": "{\"menuCd\":\"viewBy4.12\",\"value\":\"3\",\"operator\":\" \",\"menuItemId\":5,\"label\":\"Tier 3\",\"id\":144}",
+
+      "150": "{\"menuCd\":\"viewBy4.13\",\"value\":\"GEO_ABBR\",\"valueDesc\":\"GEO_DESC\",\"label\":\"Geography\",\"menuItemId\":1,\"id\":150}",
+      "151": "{\"menuCd\":\"viewBy4.13\",\"value\":\"MKT_ABBR\",\"valueDesc\":\"MKT_DESC\",\"label\":\"Market \/ Region\",\"menuItemId\":2,\"id\":151}",
+      "155": "{\"menuCd\":\"viewBy4.13\",\"value\":\"SECTOR_ABBR\",\"valueDesc\":\"SECTOR_DESC\",\"label\":\"Sector\",\"menuItemId\":3,\"id\":155}",
+      "156": "{\"menuCd\":\"viewBy4.13\",\"value\":\"INDUSTRY_ABBR\",\"valueDesc\":\"INDUSTRY_DESC\",\"label\":\"Industry\",\"menuItemId\":4,\"id\":156}",
+
+      "200": "{\"menuCd\":\"viewBy20.1\",\"value\":\"PC\",\"label\":\"Price Case\",\"color\":\"#00CFF6\",\"menuItemId\":1,\"id\":200}",
+      "201": "{\"menuCd\":\"viewBy20.1\",\"value\":\"AP\",\"label\":\"Approved Plan\",\"color\":\"#A1D800\",\"menuItemId\":2,\"id\":201}",
+      "202": "{\"menuCd\":\"viewBy20.1\",\"value\":\"FC\",\"label\":\"Forecast\",\"color\":\"#FFB400\",\"menuItemId\":3,\"id\":202}",
+      
+      "210": "{\"menuCd\":\"viewBy20.2\",\"value\":\"CQ_TO_PC\",\"label\":\"CQ to PC\",\"color\":\"#FC9D9A\",\"menuItemId\":1,\"id\":210}",
+      "211": "{\"menuCd\":\"viewBy20.2\",\"value\":\"FC_EAC_TO_PC\",\"label\":\"FC EaC to PC\",\"color\":\"#FFDD3E\",\"menuItemId\":2,\"id\":211}",
+      "212": "{\"menuCd\":\"viewBy20.2\",\"value\":\"ITD_TO_PC\",\"label\":\"ItD to PC\",\"color\":\"#00CFF4\",\"menuItemId\":3,\"id\":212}",
+      "213": "{\"menuCd\":\"viewBy20.2\",\"value\":\"YTD_TO_PC\",\"label\":\"YtD to PC\",\"color\":\"#A2D603\",\"menuItemId\":4,\"id\":213}",
+
+      "220": "{\"menuCd\":\"viewBy20.3\",\"value\":\"AP_TO_PC\",\"label\":\"AP to PC\",\"color\":\"#34D084\",\"menuItemId\":1,\"id\":220}",
+      "221": "{\"menuCd\":\"viewBy20.3\",\"value\":\"FC_EAC_AP\",\"label\":\"FC EaC to AP\",\"color\":\"#C6D0DC\",\"menuItemId\":2,\"id\":221}",
+
+      "230": "{\"menuCd\":\"viewBy20.4\",\"value\":\"CPMA\",\"label\":\"CPM Assigned\",\"export_all_label\":\"Export All Complex Contracts\",\"export_label\":\"Export Green Metric - CPM \",\"color\":\"#34D084\",\"menuItemId\":1,\"id\":230}",
+      "231": "{\"menuCd\":\"viewBy20.4\",\"value\":\"CPME\",\"label\":\"CPM + Exceptions\",\"export_all_label\":\"Export All Complex Contracts\",\"export_label\":\"Export Yellow Metric (CPM Assigned or Exception) - \",\"color\":\"#F5D24C\",\"menuItemId\":2,\"id\":231}",
+
+      "233": "{\"menuCd\":\"viewBy20.4\",\"value\":\"APREX\",\"label\":\"Approved Exceptions\",\"export_all_label\":\"Export All Complex Contracts\",\"export_label\":\"Export Blue Metric - Approved Exceptions\",\"color\":\"#007AFF\",\"menuItemId\":4,\"id\":233}",
+
+      "240": "{\"menuCd\":\"viewBy20.5\",\"value\":\"TL\",\"label\":\"Tiered Leakage\",\"menuItemId\":1,\"id\":240}",
+      "241": "{\"menuCd\":\"viewBy20.5\",\"value\":\"BOL\",\"label\":\"Business / Operational Leakage\",\"menuItemId\":2,\"id\":241}",
+
+      "250": "{\"menuCd\":\"viewBy20.6\",\"value\":\"AP_TO_PC\",\"label\":\"AP to PC\",\"color\":\"#34D084\",\"leakage_label\":\"Business / Operational Leakage\",\"menuItemId\":1,\"id\":250}",
+      "251": "{\"menuCd\":\"viewBy20.6\",\"value\":\"FC_EAC_AP\",\"label\":\"FC EaC to AP\",\"color\":\"#C6D0DC\",\"leakage_label\":\"Business / Operational Leakage\",\"menuItemId\":2,\"id\":251}",
+      "252": "{\"menuCd\":\"viewBy20.6\",\"value\":\"CQ_TO_PC\",\"label\":\"CQ to PC\",\"color\":\"#FC9D9A\",\"leakage_label\":\"Business / Operational Leakage\",\"menuItemId\":3,\"id\":252}",
+      "253": "{\"menuCd\":\"viewBy20.6\",\"value\":\"FC_EAC_TO_PC\",\"label\":\"FC EaC to PC\",\"color\":\"#FFDD3E\",\"leakage_label\":\"Business / Operational Leakage\",\"menuItemId\":4,\"id\":253}",
+      "254": "{\"menuCd\":\"viewBy20.6\",\"value\":\"ITD_TO_PC\",\"label\":\"ItD to PC\",\"color\":\"#00CFF4\",\"leakage_label\":\"Business / Operational Leakage\",\"menuItemId\":5,\"id\":254}",
+      "255": "{\"menuCd\":\"viewBy20.6\",\"value\":\"YTD_TO_PC\",\"label\":\"YtD to PC\",\"color\":\"#A2D603\",\"leakage_label\":\"Business / Operational Leakage\",\"menuItemId\":6,\"id\":255}",
+
+      "260": "{\"menuCd\":\"viewBy20.7\",\"value\":\"QTR\",\"label\":\"Quarterly\",\"menuItemId\":1,\"id\":260}",
+      "261": "{\"menuCd\":\"viewBy20.7\",\"value\":\"MON\",\"label\":\"Monthly\",\"menuItemId\":2,\"id\":261}",
+      "262": "{\"menuCd\":\"viewBy20.7\",\"value\":\"ITD\",\"label\":\"ITD\",\"menuItemId\":3,\"id\":262}",
+      "263": "{\"menuCd\":\"viewBy20.7\",\"value\":\"QTD\",\"label\":\"QTD\",\"menuItemId\":4,\"id\":263}",
+
+      "265": "{\"menuCd\":\"viewBy20.8\",\"value\":\"0\",\"label\":\"Non Compliant\",\"menuItemId\":1,\"id\":265}",
+      "266": "{\"menuCd\":\"viewBy20.8\",\"value\":\"1\",\"label\":\"Compliant\",\"menuItemId\":2,\"id\":266}",
+
+      "270": "{\"menuCd\":\"viewBy20.9\",\"value\":\"PG0\",\"label\":\"PG0 Compliance\",\"color\":\"#AF6EE8\",\"menuItemId\":1,\"id\":270}",
+      "271": "{\"menuCd\":\"viewBy20.9\",\"value\":\"PG1_4\",\"label\":\"PG1-4 Compliance\",\"color\":\"#00CFF4\",\"menuItemId\":2,\"id\":271}",
+      "272": "{\"menuCd\":\"viewBy20.9\",\"value\":\"RO_ACT\",\"label\":\"R/O with actions created\",\"color\":\"#FF71D4\",\"menuItemId\":3,\"id\":272}",
+      "273": "{\"menuCd\":\"viewBy20.9\",\"value\":\"RO_OVD\",\"label\":\"R/O with no overdue actions\",\"color\":\"#4178BE\",\"menuItemId\":4,\"id\":273}",
+
+      "276": "{\"menuCd\":\"viewBy20.10\",\"value\":\"PG_0\",\"label\":\"PG0 Performance\",\"color\":\"\",\"menuItemId\":1,\"id\":276}",
+      "277": "{\"menuCd\":\"viewBy20.10\",\"value\":\"PG_1_4\",\"label\":\"PG1-4 Performance\",\"color\":\"\",\"menuItemId\":2,\"id\":277}",
+      "278": "{\"menuCd\":\"viewBy20.10\",\"value\":\"PG_1\",\"label\":\"PG1 Performance\",\"color\":\"\",\"menuItemId\":3,\"id\":278}",
+      "279": "{\"menuCd\":\"viewBy20.10\",\"value\":\"PG_2\",\"label\":\"PG2 Performance\",\"color\":\"\",\"menuItemId\":4,\"id\":279}",
+      "280": "{\"menuCd\":\"viewBy20.10\",\"value\":\"PG_3\",\"label\":\"PG3 Performance\",\"color\":\"\",\"menuItemId\":5,\"id\":280}",
+      "281": "{\"menuCd\":\"viewBy20.10\",\"value\":\"PG_4\",\"label\":\"PG4 Performance\",\"color\":\"\",\"menuItemId\":6,\"id\":281}",
+
+      "283": "{\"menuCd\":\"viewBy20.11\",\"value\":\"ACT\",\"label\":\"Total Active Work No.\",\"export_all_label\":\"Export All Forecast metrics\",\"export_label\":\"Total Active Work No.\",\"color\":\"#00CFF4\",\"menuItemId\":1,\"id\":283}",
+      "284": "{\"menuCd\":\"viewBy20.11\",\"value\":\"REQ\",\"label\":\"IPPF Required\",\"export_all_label\":\"Export All Forecast metrics\",\"export_label\":\"IPPF Required - \",\"color\":\"#FC9D9A\",\"menuItemId\":2,\"id\":284}",
+      "285": "{\"menuCd\":\"viewBy20.11\",\"value\":\"FCST\",\"label\":\"Forecasted in IPPF\",\"export_all_label\":\"Export All Forecast metrics\",\"export_label\":\"Forecasted in IPPF - \",\"color\":\"#FFB400\",\"menuItemId\":3,\"id\":285}",
+      "286": "{\"menuCd\":\"viewBy20.11\",\"value\":\"PM\",\"label\":\"Submitted FC Brand PM\",\"export_all_label\":\"Export All Forecast metrics\",\"export_label\":\"Submitted FC Brand PM - \",\"color\":\"#34D084\",\"menuItemId\":4,\"id\":286}",
+      "287": "{\"menuCd\":\"viewBy20.11\",\"value\":\"PE\",\"label\":\"Approved FC Brand PE\",\"export_all_label\":\"Export All Forecast metrics\",\"export_label\":\"Approved FC Brand PE - \",\"color\":\"#FF3CA0\",\"menuItemId\":5,\"id\":287}",
+
+      "289": "{\"menuCd\":\"viewBy20.12\",\"value\":\"NC\",\"label\":\"Non-Compliant\",\"export_all_label\":\"Export All CoS Contracts\",\"color\":\"#333333\",\"export_label\":\"Export Non-Compliant CoS Contracts\",\"menuItemId\":1,\"id\":289}",
+      "290": "{\"menuCd\":\"viewBy20.12\",\"value\":\"CMPW\",\"label\":\"Compliance within 12 months\",\"export_all_label\":\"Export All CoS Contracts\",\"color\":\"#333333\",\"export_label\":\"Export Compliance within 12 months CoS Contracts\",\"menuItemId\":2,\"id\":290}",
+      "291": "{\"menuCd\":\"viewBy20.12\",\"value\":\"CMPG\",\"label\":\"Compliance greater than 12 months\",\"export_all_label\":\"Export All CoS Contracts\",\"color\":\"#333333\",\"export_label\":\"Export Compliance greater than 12 months CoS Contracts\",\"menuItemId\":3,\"id\":291}",
+
+      "295": "{\"menuCd\":\"viewBy20.13\",\"value\":\"AP_TO_PC\",\"label\":\"AP to PC\",\"color\":\"#A2191F\",\"export_all_label\":\"Export All \",\"menuItemId\":1,\"id\":295}",
+      "296": "{\"menuCd\":\"viewBy20.13\",\"value\":\"CQ_TO_PC\",\"label\":\"CQ to PC\",\"color\":\"#0043CE\",\"export_all_label\":\"Export All \",\"menuItemId\":2,\"id\":296}",
+      "297": "{\"menuCd\":\"viewBy20.13\",\"value\":\"FC_EAC_AP\",\"label\":\"FC EaC to AP\",\"color\":\"#3DDBD9\",\"export_all_label\":\"Export All \",\"menuItemId\":3,\"id\":297}",
+      "298": "{\"menuCd\":\"viewBy20.13\",\"value\":\"FC_EAC_TO_PC\",\"label\":\"FC EaC to PC\",\"color\":\"#F1C21B\",\"export_all_label\":\"Export All \",\"menuItemId\":4,\"id\":298}",
+      "299": "{\"menuCd\":\"viewBy20.13\",\"value\":\"ITD_TO_PC\",\"label\":\"ItD to PC\",\"color\":\"#005D5D\",\"export_all_label\":\"Export All \",\"menuItemId\":5,\"id\":299}",
+      "300": "{\"menuCd\":\"viewBy20.13\",\"value\":\"YTD_TO_PC\",\"label\":\"YtD to PC\",\"color\":\"#FF832B\",\"export_all_label\":\"Export All \",\"menuItemId\":6,\"id\":300}",
+      "301": "{\"menuCd\":\"viewBy20.13\",\"value\":\"COST_OVER\",\"label\":\"3 Mo. Cost Overrun\",\"color\":\"#BE95FF\",\"export_all_label\":\"Export All \",\"menuItemId\":7,\"id\":301}",
+
+      "305": "{\"menuCd\":\"viewBy20.14\",\"value\":\"1\",\"label\":\"Projects launched in the last 60 days\",\"paramName\":\"mdl\",\"infoMsg\":\"Work Number: % of completion based on Work Number end date.\",\"menuItemId\":1,\"id\":305}",
+      "306": "{\"menuCd\":\"viewBy20.14\",\"value\":\"0\",\"label\":\"Projects in delivery (< 60% complete)\",\"paramName\":\"mdl\",\"operator\":\"<\",\"infoMsg\":\"Work Number: % of completion based on Work Number end date.\",\"menuItemId\":2,\"id\":306}",
+      "307": "{\"menuCd\":\"viewBy20.14\",\"value\":\"0\",\"label\":\"Projects in delivery (>= 60% complete)\",\"paramName\":\"mdl\",\"operator\":\">=\",\"infoMsg\":\"Work Number: % of completion based on Work Number end date.\",\"menuItemId\":3,\"id\":307}",
+
+      "309": "{\"menuCd\":\"viewBy20.15\",\"value\":\"APRVD\",\"label\":\"Approved Plan\",\"paramName\":\"type\",\"menuItemId\":1,\"id\":309}",
+      "310": "{\"menuCd\":\"viewBy20.15\",\"value\":\"PC\",\"label\":\"Price Case\",\"paramName\":\"type\",\"menuItemId\":2,\"id\":310}",
+
+      "313": "{\"menuCd\":\"viewBy20.16\",\"value\":\"C\",\"label\":\"Contract\",\"infoMsg\":\"Contract: Risk of current GP % declining by over 2% over the next 6 months against the Price Case GP.\",\"visible\":\"true\",\"menuItemId\":1,\"id\":313}",
+      "314": "{\"menuCd\":\"viewBy20.16\",\"value\":\"W\",\"label\":\"Work Number\",\"infoMsg\":\"Work Number: Risk of not meeting the plan target.\",\"visible\":\"true\",\"menuItemId\":2,\"id\":314}",
+
+      "316": "{\"menuCd\":\"viewBy20.17\",\"value\":\"1\",\"label\":\"CIC List\",\"paramName\":\"cic\",\"menuItemId\":1,\"id\":316}",
+      "317": "{\"menuCd\":\"viewBy20.17\",\"value\":\"1\",\"label\":\"DCA List\",\"paramName\":\"dca\",\"menuItemId\":2,\"id\":317}",
+      "318": "{\"menuCd\":\"viewBy20.17\",\"value\":\"1\",\"label\":\"DE List\",\"paramName\":\"de\",\"menuItemId\":3,\"id\":318}",
+
+      "320": "{\"menuCd\":\"viewBy20.18\",\"value\":\"CON\",\"label\":\"Contract\",\"visible\":\"true\",\"menuItemId\":1,\"id\":320}",
+      "321": "{\"menuCd\":\"viewBy20.18\",\"value\":\"WRK\",\"label\":\"Work No.\",\"visible\":\"false\",\"menuItemId\":2,\"id\":321}",
+      "322": "{\"menuCd\":\"viewBy20.18\",\"value\":\"CN\",\"label\":\"Client Name\",\"visible\":\"false\",\"menuItemId\":3,\"id\":322}",
+
+      "325": "{\"menuCd\":\"viewBy20.19\",\"value\":\"SK\",\"label\":\"7 Keys Compliance\",\"color\":\"\",\"menuItemId\":1,\"id\":325}",
+      "326": "{\"menuCd\":\"viewBy20.19\",\"value\":\"ASSTF\",\"label\":\"Assign/Staff CPM\",\"color\":\"\",\"menuItemId\":2,\"id\":326}",
+      "327": "{\"menuCd\":\"viewBy20.19\",\"value\":\"COSC\",\"label\":\"CoS Compliance\",\"color\":\"\",\"menuItemId\":3,\"id\":327}",
+      "328": "{\"menuCd\":\"viewBy20.19\",\"value\":\"COSR\",\"label\":\"CoS Result\",\"color\":\"\",\"menuItemId\":4,\"id\":328}",
+      "329": "{\"menuCd\":\"viewBy20.19\",\"value\":\"PG0C\",\"label\":\"PG0 Compliance\",\"color\":\"\",\"menuItemId\":5,\"id\":329}",
+      "330": "{\"menuCd\":\"viewBy20.19\",\"value\":\"PG1_4C\",\"label\":\"PG1-4 Compliance\",\"color\":\"\",\"menuItemId\":6,\"id\":330}",
+      "331": "{\"menuCd\":\"viewBy20.19\",\"value\":\"PG0R\",\"label\":\"PG0 Result\",\"color\":\"\",\"menuItemId\":7,\"id\":331}",
+      "332": "{\"menuCd\":\"viewBy20.19\",\"value\":\"PG01R\",\"label\":\"PG1 Result\",\"color\":\"\",\"menuItemId\":8,\"id\":332}",
+      "333": "{\"menuCd\":\"viewBy20.19\",\"value\":\"PG2R\",\"label\":\"PG2 Result\",\"color\":\"\",\"menuItemId\":9,\"id\":333}",
+      "334": "{\"menuCd\":\"viewBy20.19\",\"value\":\"PG3R\",\"label\":\"PG3 Result\",\"color\":\"\",\"menuItemId\":10,\"id\":334}",
+      "335": "{\"menuCd\":\"viewBy20.19\",\"value\":\"PG4R\",\"label\":\"PG4 Result\",\"color\":\"\",\"menuItemId\":11,\"id\":335}",
+      "336": "{\"menuCd\":\"viewBy20.19\",\"value\":\"SKR\",\"label\":\"7 Keys Result\",\"color\":\"\",\"menuItemId\":12,\"id\":336}",
+      "337": "{\"menuCd\":\"viewBy20.19\",\"value\":\"DS\",\"label\":\"Delivery Start\",\"color\":\"\",\"menuItemId\":13,\"id\":337}",
+
+      "340": "{\"menuCd\":\"viewBy20.20\",\"value\":\"ITD\",\"label\":\"ItD to PC $\",\"color\":\"\",\"menuItemId\":1,\"id\":340}",
+      "341": "{\"menuCd\":\"viewBy20.20\",\"value\":\"YTD\",\"label\":\"YtD to PC $\",\"color\":\"\",\"menuItemId\":2,\"id\":341}",
+      "342": "{\"menuCd\":\"viewBy20.20\",\"value\":\"CQ\",\"label\":\"CQ to PC $\",\"color\":\"\",\"menuItemId\":3,\"id\":342}",
+
+      "345": "{\"menuCd\":\"viewBy20.21\",\"value\":\"U60\",\"label\":\"UBAR > 90 days\",\"color\":\"\",\"menuItemId\":1,\"id\":345}",
+
+      "348": "{\"menuCd\":\"viewBy20.22\",\"value\":\"CQA\",\"label\":\"CQ GP $\",\"color\":\"\",\"menuItemId\":1,\"id\":348}",
+      "349": "{\"menuCd\":\"viewBy20.22\",\"value\":\"CAP\",\"label\":\"CQ GP %\",\"color\":\"\",\"menuItemId\":2,\"id\":349}",
+      "350": "{\"menuCd\":\"viewBy20.22\",\"value\":\"FCEAC\",\"label\":\"FC EaC %\",\"color\":\"\",\"menuItemId\":3,\"id\":350}",
+      "351": "{\"menuCd\":\"viewBy20.22\",\"value\":\"APP\",\"label\":\"Approved Plan GP %\",\"color\":\"\",\"menuItemId\":4,\"id\":351}",
+      "352": "{\"menuCd\":\"viewBy20.22\",\"value\":\"CQREV\",\"label\":\"CQ Revenue\",\"color\":\"\",\"menuItemId\":5,\"id\":352}",
+      "353": "{\"menuCd\":\"viewBy20.22\",\"value\":\"REVIN\",\"label\":\"Revenue Increase\",\"color\":\"\",\"menuItemId\":6,\"id\":353}",
+      "354": "{\"menuCd\":\"viewBy20.22\",\"value\":\"ITDP\",\"label\":\"ItD GP %\",\"color\":\"\",\"menuItemId\":7,\"id\":354}",
+      "355": "{\"menuCd\":\"viewBy20.22\",\"value\":\"PCP\",\"label\":\"Price Case GP %\",\"color\":\"\",\"menuItemId\":8,\"id\":355}",
+
+      "360": "{\"menuCd\":\"viewBy20.23\",\"value\":\"COM\",\"label\":\"% Completion\",\"color\":\"\",\"menuItemId\":1,\"id\":360}",
+      "361": "{\"menuCd\":\"viewBy20.23\",\"value\":\"PM\",\"label\":\"Project Manager\",\"color\":\"\",\"menuItemId\":2,\"id\":361}",
+      "362": "{\"menuCd\":\"viewBy20.23\",\"value\":\"PRT\",\"label\":\"Partner\",\"color\":\"\",\"menuItemId\":3,\"id\":362}",
+      "363": "{\"menuCd\":\"viewBy20.23\",\"value\":\"CPLX\",\"label\":\"Complex\",\"color\":\"\",\"menuItemId\":4,\"id\":363}",
+      "364": "{\"menuCd\":\"viewBy20.23\",\"value\":\"DEL\",\"label\":\"DE List\",\"color\":\"\",\"menuItemId\":5,\"id\":364}",
+      "365": "{\"menuCd\":\"viewBy20.23\",\"value\":\"CNT\",\"label\":\"Contract No\",\"color\":\"\",\"menuItemId\":6,\"id\":365}",
+      "366": "{\"menuCd\":\"viewBy20.23\",\"value\":\"POC\",\"label\":\"PoC / Non PoC\",\"color\":\"\",\"menuItemId\":7,\"id\":366}",
+
+      "370": "{\"menuCd\":\"viewBy20.24\",\"value\":\"0\",\"label\":\"Compliant\",\"menuItemId\":1,\"id\":370}",
+      "371": "{\"menuCd\":\"viewBy20.24\",\"value\":\"1\",\"label\":\"Non Compliant\",\"menuItemId\":2,\"id\":371}",
+
+      "375": "{\"menuCd\":\"viewBy20.25\",\"value\":\"IMPCT_BY_GDPR\",\"label\":\"GDPR Impacted Contracts\",\"color\":\"#6E32C9\",\"menuItemId\":1,\"id\":375}",
+      "376": "{\"menuCd\":\"viewBy20.25\",\"value\":\"DPA_NOT_SGND\",\"label\":\"DPA Not Signed\",\"color\":\"#00CFF6\",\"menuItemId\":2,\"id\":376}",
+      "377": "{\"menuCd\":\"viewBy20.25\",\"value\":\"EXHBT_NOT_SGND\",\"label\":\"DPA Exhibit Not Signed\",\"color\":\"#A1D800\",\"menuItemId\":3,\"id\":377}",
+      "378": "{\"menuCd\":\"viewBy20.25\",\"value\":\"SL_NOT_CMPL\",\"label\":\"TOMs SL Review Not Completed\",\"color\":\"#FFB400\",\"menuItemId\":4,\"id\":378}",
+      "379": "{\"menuCd\":\"viewBy20.25\",\"value\":\"TOM_NOT_IMPL\",\"label\":\"TOMs Not Implemented\",\"color\":\"#A51920\",\"menuItemId\":5,\"id\":379}",
+      "380": "{\"menuCd\":\"viewBy20.25\",\"value\":\"FULL_NOT_ACH\",\"label\":\"Full GDPR Readiness Not Achieved\",\"color\":\"#FF3CA0\",\"menuItemId\":6,\"id\":380}",
+      "381": "{\"menuCd\":\"viewBy20.25\",\"value\":\"EUMC\",\"label\":\"EUMC\",\"color\":\"#0058A1\",\"menuItemId\":7,\"id\":381}",
+      "382": "{\"menuCd\":\"viewBy20.25\",\"value\":\"SUB\",\"label\":\"Subprocessor\",\"color\":\"#8A3FFC\",\"menuItemId\":8,\"id\":382}",
+
+      "384": "{\"menuCd\":\"viewBy20.26\",\"value\":\"NOT_IMPCT\",\"label\":\"Contracts Not Impacted by GDPR\",\"color\":\"#A1D800\",\"menuItemId\":1,\"id\":384}",
+      "385": "{\"menuCd\":\"viewBy20.26\",\"value\":\"NO_LANG\",\"label\":\"Contracts Without Standard Language\",\"color\":\"#10642A\",\"menuItemId\":2,\"id\":385}",
+      
+      "387": "{\"menuCd\":\"viewBy20.27\",\"value\":\"NOASSN\",\"label\":\"Active Contracts Not Assessed for GDPR\",\"color\":\"#20D5D2\",\"menuItemId\":1,\"id\":387}",
+
+      "400": "{\"menuCd\":\"viewBy20.30\",\"value\":\"Del\",\"label\":\"Delivery\",\"menuItemId\":1,\"id\":400}",
+      "401": "{\"menuCd\":\"viewBy20.30\",\"value\":\"Sol\",\"label\":\"Solutioning\",\"menuItemId\":2,\"id\":401}",
+
+      "402": "{\"menuCd\":\"viewBy20.31\",\"value\":\"0\",\"label\":\"Submission\",\"menuItemId\":1,\"id\":402}",
+      "403": "{\"menuCd\":\"viewBy20.31\",\"value\":\"1\",\"label\":\"Compliance\",\"menuItemId\":2,\"id\":403}",
+
+      "404": "{\"menuCd\":\"viewBy20.32\",\"value\":\"SUB\",\"label\":\"Submitted\",\"paramName\":\"metric\",\"menuItemId\":1,\"id\":404}",
+      "405": "{\"menuCd\":\"viewBy20.32\",\"value\":\"NSUB\",\"label\":\"Not Submitted\",\"paramName\":\"metric\",\"menuItemId\":2,\"id\":405}",
+
+      "406": "{\"menuCd\":\"viewBy20.33\",\"value\":\"COM\",\"label\":\"Compliant\",\"paramName\":\"metric\",\"menuItemId\":1,\"id\":406}",
+      "407": "{\"menuCd\":\"viewBy20.33\",\"value\":\"NCOM\",\"label\":\"Non Compliant\",\"paramName\":\"metric\",\"menuItemId\":2,\"id\":407}",
+
+      "408": "{\"menuCd\":\"viewBy20.34\",\"value\":\"0\",\"label\":\"Compliance\",\"menuItemId\":1,\"id\":408}",
+      "409": "{\"menuCd\":\"viewBy20.34\",\"value\":\"1\",\"label\":\"Deviations\",\"menuItemId\":2,\"id\":409}",
+
+      "410": "{\"menuCd\":\"viewBy20.35\",\"value\":\"APR\",\"label\":\"Approved\",\"paramName\":\"metric\",\"menuItemId\":1,\"id\":410}",
+      "411": "{\"menuCd\":\"viewBy20.35\",\"value\":\"UAPR\",\"label\":\"Unapproved\",\"paramName\":\"metric\",\"menuItemId\":2,\"id\":411}",
+
+      "415": "{\"menuCd\":\"viewBy20.36\",\"value\":\"0\",\"label\":\"Contracts in delivery (< 60% complete)\",\"paramName\":\"mdl\",\"operator\":\"<\",\"infoMsg\":\"Contract: % of completion based on Contract end date.\",\"menuItemId\":1,\"id\":415}",
+      "416": "{\"menuCd\":\"viewBy20.36\",\"value\":\"0\",\"label\":\"Contracts in delivery (>= 60% complete)\",\"paramName\":\"mdl\",\"operator\":\">=\",\"infoMsg\":\"Contract: % of completion based on Contract end date.\",\"menuItemId\":2,\"id\":416}",
+
+      "419": "{\"menuCd\":\"viewBy20.37\",\"value\":\"0\",\"label\":\"Method Usage\",\"menuItemId\":1,\"id\":419}",
+      "420": "{\"menuCd\":\"viewBy20.37\",\"value\":\"1\",\"label\":\"Deviations\",\"menuItemId\":2,\"id\":420}",
+
+      "423": "{\"menuCd\":\"viewBy20.38\",\"value\":\"0\",\"label\":\"Method Usage (incl approved deviations)\",\"menuItemId\":1,\"id\":423}",
+      "424": "{\"menuCd\":\"viewBy20.38\",\"value\":\"1\",\"label\":\"Method Usage (excl deviations)\",\"menuItemId\":2,\"id\":424}",
+
+      "426": "{\"menuCd\":\"viewBy20.39\",\"value\":\"0\",\"operator\":\"=\",\"compl\":\"0 or 1\",\"scp\":\"1\",\"label\":\"Delivery Start\",\"menuItemId\":1,\"id\":426}",
+      "427": "{\"menuCd\":\"viewBy20.39\",\"value\":\"1\",\"operator\":\">\",\"compl\":\"-1\",\"scp\":\"0\",\"label\":\"14 Day Wait Period\",\"menuItemId\":2,\"id\":427}"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "t2PMProcCompGDPRPopup",
+  "plural": "t2PMProcCompGDPRPopup",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

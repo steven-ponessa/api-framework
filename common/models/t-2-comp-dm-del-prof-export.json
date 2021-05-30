@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDMDelProfExport",
+  "plural": "t2CompDMDelProfExport",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,189 @@
+[
+    { "apiPattern" : "t[0-9]comp",
+      "map" : [
+          { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+          { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+          { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+          { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+          { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+          { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+          { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+      ]
+    },
+    { "apiPattern" : "t1FinancialSummary",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },
+    { "apiPattern" : "t[0-9]TieredLeak",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },
+    { "apiPattern" : "t[0-9]gpp",
+      "map" : [
+          { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+          { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+          { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+          { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+          { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+          { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+          { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+      ]
+    },
+    { "apiPattern" : "t[0-9]PredRisk",
+      "map" : [
+          { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+          { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+          { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+          { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+          { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+          { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+          { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+      ]
+    },
+    { "apiPattern" : "t[0-9]Pri",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },    
+    { "apiPattern" : "t[0-9]UB",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },    
+    { "apiPattern" : "t[0-9]Top",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },    
+    { "apiPattern" : "t[0-9]PlanHealth",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },    
+    { "apiPattern" : "t[0-9]planhealth",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },    
+    { "apiPattern" : "t[0-9]Exp",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    }, 
+    { "apiPattern" : "t[0-9]Report",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },
+    { "apiPattern" : "t[0-9]GPLeak",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },
+    { "apiPattern" : "t[0-9]PM",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },
+    { "apiPattern" : "t[0-9]TL",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },
+    { "apiPattern" : "t[0-9]Search",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    },
+    { "apiPattern" : "t[0-9]ActPort",
+        "map" : [
+            { "source" : "GEO_DESC" , "target" : "GEO_LVL1_NM" },
+            { "source" : "MKT_DESC" , "target" : "GEO_LVL2_NM" },
+            { "source" : "CTRY_DESC" , "target" : "CTRY_NM" },
+            { "source" : "SECTOR_DESC" , "target" : "SCTR_GB_NM" },
+            { "source" : "GROWTH_PLATFORM_DESC", "target" : "GRTH_PLFM_DESC"},
+            { "source" : "SVC_LINE_DESC", "target" : "SVC_LINE_NM"},
+            { "source" : "INDUSTRY_DESC", "target" : "INDSTRY_CMR_NM"}
+        ]
+    } 
+]

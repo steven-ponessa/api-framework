@@ -1,0 +1,45 @@
+{
+  "name": "BRAND_DIM",
+  "plural": "BRAND_DIM",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "BRAND_ID": {
+      "type": "number",
+      "id": false,
+      "required": false,
+      "isArray": false
+    },
+    "BRAND_CD": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "isArray": false
+    },
+    "BRAND_NM": {
+      "type": "string",
+      "required": true
+    },
+    "BRAND_DESC": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "growth_platform_dims": {
+      "type": "hasMany",
+      "model": "GROWTH_PLATFORM_DIM",
+      "foreignKey": "BRAND_CD",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

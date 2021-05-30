@@ -1,0 +1,30 @@
+{
+  "name": "USER_ACKNOWLEDGEMENTS",
+  "plural": "USER_ACKNOWLEDGEMENTS",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "EMAIL_ID": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "description": "Intranet Id",
+      "isArray": false
+    },
+    "T_C_TMS": {
+      "type": "date",
+      "required": false
+    },
+    "EU_PI_TMS": {
+      "type": "date",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

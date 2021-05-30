@@ -1,0 +1,52 @@
+{
+	"t1BusinessGPLeakage" : {
+	
+		"date": "23 Sept 2017",
+		
+		"data": [
+		
+			{
+				"label": "ItD to PC",
+				
+				"value": "777.34",
+				
+				"value_color": "7A7A7A",
+				
+				"percent": "5.5",
+				
+				"percent_color": "FFD08F",
+				
+				"status": "up"
+			},
+			
+			{
+				"label": "YtD to PC",
+				
+				"value": "234.32",
+				
+				"value_color": "7A7A7A",
+				
+				"percent": "1.5",
+				
+				"percent_color": "FFD08F",
+				
+				"status": "down"
+			},
+			
+			{
+				"label": "FC EaC to PC",
+				
+				"value": "818.54",
+				
+				"value_color": "7A7A7A",
+				
+				"percent": "20.3",
+				
+				"percent_color": "FFD08F",
+				
+				"status": "up"
+			}
+			
+		]
+	}
+}

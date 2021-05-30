@@ -1,0 +1,14 @@
+{
+  "name": "t2UBExpanContract",
+  "plural": "t2UBExpanContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

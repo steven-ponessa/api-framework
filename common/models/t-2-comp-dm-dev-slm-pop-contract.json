@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDMDevSLMPopContract",
+  "plural": "t2CompDMDevSLMPopContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

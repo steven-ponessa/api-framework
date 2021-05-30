@@ -1,0 +1,19 @@
+{
+    "category": "Europe",
+    "data":[
+      {
+        "label": "CQ to AP",
+        "ytyVar": {"value": "--" },
+        "qtqVar":{"value": "--" }
+      },
+      {
+        "label": "FC EaC to AP",
+        "ytyVar": {"value": "--" },
+        "qtqVar":{"value": "--" }
+      },
+      {
+        "label": "3 Mo. Cost Overrun",
+        "ytyVar": {"value": "--" },
+        "qtqVar":{"value": "--" }
+      }]
+  }

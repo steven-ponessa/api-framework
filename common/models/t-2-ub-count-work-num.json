@@ -1,0 +1,14 @@
+{
+  "name": "t2UBCountWorkNum",
+  "plural": "t2UBCountWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

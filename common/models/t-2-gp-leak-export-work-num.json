@@ -1,0 +1,14 @@
+{
+  "name": "t2GPLeakExportWorkNum",
+  "plural": "t2GPLeakExportWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "t2CompCPMExportMetric",
+  "plural": "t2CompCPMExportMetric",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

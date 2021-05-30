@@ -1,0 +1,14 @@
+{
+  "name": "t2CompPGCountPerf",
+  "plural": "t2CompPGCountPerf",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "BMDIV_LOB_V",
+  "plural": "BMDIV_LOB_V",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "BMSIW-SIW-BMSIW": {
+      "schema": "BMSIW"
+    }
+  },
+  "properties": {
+    "BMDIV_CD": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "description": "Business Measurement Division Code",
+      "isArray": false
+    },
+    "LOB_CD": {
+      "type": "string",
+      "required": true,
+      "description": "LoB Code"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

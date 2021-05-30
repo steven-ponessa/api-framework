@@ -1,0 +1,14 @@
+{
+  "name": "t2PlanHealthContractExport",
+  "plural": "t2PlanHealthContractExport",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

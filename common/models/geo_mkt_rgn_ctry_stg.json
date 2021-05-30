@@ -1,0 +1,62 @@
+{
+  "name": "GEO_MKT_RGN_CTRY_STG",
+  "plural": "GEO_MKT_RGN_CTRY_STG",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CTRY_CD": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "description": "Country Code",
+      "isArray": false
+    },
+    "CTRY_DESC": {
+      "type": "string",
+      "required": false,
+      "description": "Country Name"
+    },
+    "IMT_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Legacy IMT Code"
+    },
+    "RGN_LVL1_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Geography Code"
+    },
+    "RGN_LVL1_NM": {
+      "type": "string",
+      "required": false,
+      "description": "Geography Name"
+    },
+    "RGN_LVL2_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Market Code"
+    },
+    "RGN_LVL2_NM": {
+      "type": "string",
+      "required": false,
+      "description": "Market Name"
+    },
+    "RGN_LVL3_CD": {
+      "type": "string",
+      "required": false,
+      "description": "Market-Region Code"
+    },
+    "RGN_LVL3_NM": {
+      "type": "string",
+      "required": false,
+      "description": "Market-Region Name"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,25 @@
+{"t2businessleakageexpansiontred":
+{
+	"ITD_LABEL":"ItD%",
+	"ITD_COLOR":"#00CFF4",
+	"YTD_LABEL":"YtD",
+	"YTD_COLOR":"#A2D603",
+	"FRCST_LABEL":"Forecast%",
+	"FRCST_COLOR":"#FFDD3E",
+	"DATA":[
+		{"MO":"Jan","ITD":"27","YTD":"35","FRCST":"15"},
+		{"MO":"Feb","ITD":"38","YTD":"40","FRCST":"46"},
+		{"MO":"Mar","ITD":"44","YTD":"01","FRCST":"17"},
+		{"MO":"Apr","ITD":"28","YTD":"13","FRCST":"00"},
+		{"MO":"May","ITD":"07","YTD":"43","FRCST":"48"},
+		{"MO":"Jun","ITD":"25","YTD":"36","FRCST":"16"},
+		{"MO":"Jul","ITD":"30","YTD":"02","FRCST":"11"},
+		{"MO":"Aug","ITD":"24","YTD":"31","FRCST":"19"},
+		{"MO":"Sep","ITD":"37","YTD":"32","FRCST":"34"},
+		{"MO":"Oct","ITD":"14","YTD":"08","FRCST":"41"},
+		{"MO":"Nov","ITD":"26","YTD":"12","FRCST":"10"},
+		{"MO":"Dec","ITD":"09","YTD":"49","FRCST":"23"},
+		{"MO":"Jan","ITD":"33","YTD":"03","FRCST":"05"}
+	]
+}
+}

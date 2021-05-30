@@ -1,0 +1,14 @@
+{
+  "name": "t2PlanHealthExclusionDetailsContract",
+  "plural": "t2PlanHealthExclusionDetailsContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

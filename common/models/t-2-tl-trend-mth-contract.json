@@ -1,0 +1,14 @@
+{
+  "name": "t2TLTrendMthContract",
+  "plural": "t2TLTrendMthContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

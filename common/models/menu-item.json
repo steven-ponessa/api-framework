@@ -1,0 +1,49 @@
+{
+  "name": "MenuItem",
+  "plural": "MenuItem",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "value": {
+      "type": "string",
+      "required": false,
+      "description": "Business attribute code represented by the menu item (e..g. GEO_CD)"
+    },
+    "valueDesc": {
+      "type": "string",
+      "required": false,
+      "description": "Business attribute description represented by the menu item (e..g. GEO_DESC)"
+    },
+    "menuCd": {
+      "type": "string",
+      "id": false,
+      "required": true,
+      "index": false,
+      "description": "Parent Menu Code (e.g. busAttr)",
+      "isArray": false
+    },
+    "menuItemId": {
+      "type": "number",
+      "id": false,
+      "required": true,
+      "index": false,
+      "description": "Menu Item Identifier",
+      "isArray": false
+    },
+    "label": {
+      "type": "string",
+      "id": false,
+      "required": false,
+      "index": false,
+      "description": "Menu Item Name (e.g. Geography)",
+      "isArray": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "t2PriPopTrendContract",
+  "plural": "t2PriPopTrendContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

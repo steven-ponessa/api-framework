@@ -1,0 +1,14 @@
+{
+  "name": "t2CompCPMPopInfo",
+  "plural": "t2CompCPMPopInfo",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

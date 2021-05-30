@@ -1,0 +1,14 @@
+{
+  "name": "t2ReportTieredLeakageContractCount",
+  "plural": "t2ReportTieredLeakageContractCount",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

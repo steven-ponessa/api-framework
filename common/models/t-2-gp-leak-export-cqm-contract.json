@@ -1,0 +1,14 @@
+{
+  "name": "t2GPLeakExportCQMContract",
+  "plural": "t2GPLeakExportCQMContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

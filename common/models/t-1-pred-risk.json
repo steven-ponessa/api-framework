@@ -1,0 +1,14 @@
+{
+  "name": "t1PredRisk",
+  "plural": "t1PredRisk",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

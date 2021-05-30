@@ -1,0 +1,14 @@
+{
+  "name": "t2CompPGDetailsComp",
+  "plural": "t2CompPGDetailsComp",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

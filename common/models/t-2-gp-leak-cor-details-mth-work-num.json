@@ -1,0 +1,14 @@
+{
+  "name": "t2GPLeakCORDetailsMthWorkNum",
+  "plural": "t2GPLeakCORDetailsMthWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

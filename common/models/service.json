@@ -1,0 +1,43 @@
+{
+  "name": "Service",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true,
+      "description": "Service Name",
+      "isArray": false
+    },
+    "sqlTemplate": {
+      "type": "string",
+      "required": true,
+      "description": "SQL Template"
+    },
+    "targetModelName": {
+      "type": "string",
+      "required": true,
+      "description": "Target Model Name"
+    },
+    "description": {
+      "type": "string",
+      "required": false,
+      "description": "Description"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Parameters": {
+      "type": "hasMany",
+      "model": "Parameter",
+      "foreignKey": "serviceName"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

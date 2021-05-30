@@ -1,0 +1,14 @@
+{
+  "name": "T2planHealthExclusionTrendWorkNumberAll",
+  "plural": "T2planHealthExclusionTrendWorkNumberAll",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDMSolUsgDetails",
+  "plural": "t2CompDMSolUsgDetails",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

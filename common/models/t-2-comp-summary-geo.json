@@ -1,0 +1,14 @@
+{
+  "name": "t2CompSummaryGeo",
+  "plural": "t2CompSummaryGeo",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

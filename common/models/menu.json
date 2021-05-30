@@ -1,0 +1,33 @@
+{
+  "name": "Menu",
+  "plural": "Menu",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "menuCd": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true,
+      "description": "Menu Code (e.g. busAttr, viewBy1.2, viewBy2.1)",
+      "isArray": false
+    },
+    "menuDescription": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "menuItem": {
+      "type": "hasMany",
+      "model": "MenuItem",
+      "foreignKey": "menuCd"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

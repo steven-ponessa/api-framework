@@ -1,0 +1,14 @@
+{
+  "name": "t1OperGPLeakage",
+  "plural": "t1OperGPLeakage",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

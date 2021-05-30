@@ -1,0 +1,14 @@
+{
+  "name": "t2gppSideMonthFin",
+  "plural": "t2gppSideMonthFin",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

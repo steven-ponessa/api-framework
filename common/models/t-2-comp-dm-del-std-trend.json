@@ -1,0 +1,14 @@
+{
+  "name": "t2CompDMDelStdTrend",
+  "plural": "t2CompDMDelStdTrend",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

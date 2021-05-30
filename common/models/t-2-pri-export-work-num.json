@@ -1,0 +1,14 @@
+{
+  "name": "t2PriExportWorkNum",
+  "plural": "t2PriExportWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

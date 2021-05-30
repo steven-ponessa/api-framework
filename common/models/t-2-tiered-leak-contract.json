@@ -1,0 +1,14 @@
+{
+  "name": "t2TieredLeakContract",
+  "plural": "t2TieredLeakContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

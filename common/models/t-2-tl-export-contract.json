@@ -1,0 +1,14 @@
+{
+  "name": "t2TLExportContract",
+  "plural": "t2TLExportContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

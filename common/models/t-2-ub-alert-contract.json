@@ -1,0 +1,14 @@
+{
+  "name": "t2UBAlertContract",
+  "plural": "t2UBAlertContract",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

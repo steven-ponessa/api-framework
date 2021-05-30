@@ -1,0 +1,14 @@
+{
+  "name": "t2GPLeakPopupCQQWorkNum",
+  "plural": "t2GPLeakPopupCQQWorkNum",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

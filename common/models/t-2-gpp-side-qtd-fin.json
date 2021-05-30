@@ -1,0 +1,14 @@
+{
+  "name": "t2gppSideQTDFin",
+  "plural": "t2gppSideQTDFin",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

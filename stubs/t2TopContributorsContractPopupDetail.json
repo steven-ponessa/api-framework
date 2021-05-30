@@ -1,0 +1,24 @@
+{
+    "number":"CFTZQR3",
+    "type":"contract",
+    "status":["Active", "Other Status"],
+    "service-line": "AMS Innovation",
+    "growth-platform": "Cloud Application",
+    "sector": "Financial Services",
+    "customer": "OTIS Elevator",
+    "project": "Billing Upgrade",
+    "brand-pe": "John Smith",
+    "qtd-gp-leakage": -1,
+    "eac-to-plan": null,
+    "tcv": 350,
+    "plan": 200,
+    "actual": 234,
+    "variance-percentage": -5,
+    "variance": 36,
+    "start-date": "2014-01-23T18:25:43.511Z",
+    "end-date": "2017-06-23T18:25:43.511Z",
+    "geography": "North America",
+    "region": "",
+    "country": "United States"
+  }
+  

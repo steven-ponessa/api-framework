@@ -1,0 +1,14 @@
+{
+  "name": "t2ExpCount",
+  "plural": "t2ExpCount",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

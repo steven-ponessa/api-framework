@@ -1,0 +1,14 @@
+{
+  "name": "t1PlanHealthView",
+  "plural": "t1PlanHealthView",
+  "base": "ApiController",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
